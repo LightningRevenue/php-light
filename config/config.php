@@ -10,7 +10,7 @@ define('SITE_NAME', 'My PHP Website');
 define('SITE_URL', 'http://localhost/php-lightning');
 
 // Base URL configuration
-define('BASE_URL', '/php-light/'); // local: '/php-light/' | pe server: '/'
+define('BASE_URL', '/'); // local: '/php-light/' | pe server: '/'
 
 // Error reporting
 error_reporting(E_ALL);
