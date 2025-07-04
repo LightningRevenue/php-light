@@ -5,12 +5,69 @@ require_once 'components/footer.php';
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP Lightning - Home</title>
+    <title>Lightning Revenue | Agenție Marketing Digital București | SEO & Google Ads</title>
+    
+    <!-- Meta Tags -->
+    <meta name="description" content="Agenție de marketing digital din București specializată în SEO, Google Ads, și dezvoltare web. Creștem afacerea ta online cu strategii personalizate și rezultate măsurabile.">
+    <meta name="keywords" content="agenție marketing digital, marketing online bucurești, google ads, seo, dezvoltare website, email marketing">
+    <meta name="author" content="Lightning Revenue">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="<?php echo BASE_URL; ?>">
+    <meta property="og:title" content="Lightning Revenue | Agenție Marketing Digital București">
+    <meta property="og:description" content="Creștem afacerea ta online prin strategii de marketing digital personalizate. Expertiză în SEO, Google Ads și dezvoltare web.">
+    <meta property="og:image" content="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="<?php echo BASE_URL; ?>">
+    <meta property="twitter:title" content="Lightning Revenue | Agenție Marketing Digital București">
+    <meta property="twitter:description" content="Creștem afacerea ta online prin strategii de marketing digital personalizate. Expertiză în SEO, Google Ads și dezvoltare web.">
+    <meta property="twitter:image" content="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="<?php echo BASE_URL; ?>">
+
+    <!-- Styles -->
     <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Lightning Revenue",
+        "url": "<?php echo BASE_URL; ?>",
+        "logo": "<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png",
+        "description": "Agenție de marketing digital din București specializată în SEO, Google Ads, și dezvoltare web.",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "București",
+            "addressCountry": "RO"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+40-743-959-914",
+            "contactType": "customer service"
+        },
+        "sameAs": [
+            "https://www.facebook.com/LightningRevenue",
+            "https://www.linkedin.com/company/lightning-revenue",
+            "https://github.com/lightning-revenue"
+        ]
+    }
+    </script>
 </head>
 <body class="bg-gray-50">
     <?php renderNavbar('home'); ?>
