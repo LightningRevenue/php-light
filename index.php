@@ -12,7 +12,7 @@ require_once 'components/footer.php';
     <title>Agenție Marketing Digital București | SEO & Google Ads</title>
     
     <!-- Meta Tags -->
-    <meta name="description" content="Agenție de marketing digital din București specializată în SEO, Google Ads, și dezvoltare web. Creștem afacerea ta online cu strategii personalizate și rezultate măsurabile.">
+    <meta name="description" content="Agentie marketing digital Bucuresti ⭕ Marketing online pentru afacerea ta ✓Rezultate rapide la preț avantajos✓Site prezentare ✓Magazin online ✓Promovare online">
     <meta name="keywords" content="agenție marketing digital, marketing online bucurești, google ads, seo, dezvoltare website, email marketing, ppc, agentie pay-per-click, agentie PPC">
     <meta name="author" content="Lightning Revenue">
     <meta name="robots" content="index, follow">
@@ -20,14 +20,14 @@ require_once 'components/footer.php';
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="<?php echo BASE_URL; ?>">
-    <meta property="og:title" content="Lightning Revenue | Agenție Marketing Digital București">
+    <meta property="og:title" content="Agenție Marketing Digital București">
     <meta property="og:description" content="Creștem afacerea ta online prin strategii de marketing digital personalizate. Expertiză în SEO, Google Ads și dezvoltare web.">
     <meta property="og:image" content="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="<?php echo BASE_URL; ?>">
-    <meta property="twitter:title" content="Lightning Revenue | Agenție Marketing Digital București">
+    <meta property="twitter:title" content="Agenție Marketing Digital București">
     <meta property="twitter:description" content="Creștem afacerea ta online prin strategii de marketing digital personalizate. Expertiză în SEO, Google Ads și dezvoltare web.">
     <meta property="twitter:image" content="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
 
@@ -84,14 +84,14 @@ require_once 'components/footer.php';
                         </h1>
                         <div class="text-xl text-gray-600 space-y-4">
                             <p>
-                                Suntem o <a href="<?php echo BASE_URL; ?>despre-noi" class="text-blue-600 hover:text-blue-700 underline">agenție de marketing digital</a> din București specializată în:
+                                Suntem o <a href="<?php echo BASE_URL; ?>promovare-google-ads-promovare-online" class="text-blue-600 hover:text-blue-700 underline">agenție de marketing digital</a> din București specializată în:
                             </p>
                             <ul class="space-y-2 ml-4">
                                 <li class="flex items-center">
                                     <svg class="w-5 h-5 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                     </svg>
-                                    <a href="<?php echo BASE_URL; ?>servicii/google-ads" class="hover:text-blue-600 transition-colors">
+                                    <a href="<?php echo BASE_URL; ?>promovare-google-ads-promovare-online" class="hover:text-blue-600 transition-colors">
                                         Campanii Google Ads performante
                                     </a>
                                 </li>
@@ -99,7 +99,7 @@ require_once 'components/footer.php';
                                     <svg class="w-5 h-5 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                     </svg>
-                                    <a href="<?php echo BASE_URL; ?>servicii/seo" class="hover:text-blue-600 transition-colors">
+                                    <a href="<?php echo BASE_URL; ?>dezvoltare-siteuri-bucuresti" class="hover:text-blue-600 transition-colors">
                                         Optimizare SEO pentru vizibilitate maximă
                                     </a>
                                 </li>
@@ -107,13 +107,13 @@ require_once 'components/footer.php';
                                     <svg class="w-5 h-5 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                     </svg>
-                                    <a href="<?php echo BASE_URL; ?>servicii/web-development" class="hover:text-blue-600 transition-colors">
+                                    <a href="<?php echo BASE_URL; ?>dezvoltare-magazin-online" class="hover:text-blue-600 transition-colors">
                                         Dezvoltare website-uri și magazine online
                                     </a>
                                 </li>
                             </ul>
                             <p class="pt-2">
-                                Descoperă cum putem să <a href="<?php echo BASE_URL; ?>servicii/analytics" class="text-blue-600 hover:text-blue-700 underline">măsurăm și să îmbunătățim</a> prezența ta online pentru rezultate excepționale.
+                                Descoperă cum putem să <a href="<?php echo BASE_URL; ?>promovare-google-ads-promovare-online" class="text-blue-600 hover:text-blue-700 underline">crestem și să îmbunătățim</a> prezența ta online pentru rezultate excepționale.
                             </p>
                         </div>
 
@@ -134,19 +134,19 @@ require_once 'components/footer.php';
                         <!-- Trust Indicators -->
                         <div class="pt-8 border-t border-gray-200">
                             <div class="grid grid-cols-2 md:grid-cols-3 gap-4 items-center">
-                                <a href="<?php echo BASE_URL; ?>testimoniale" class="flex items-center space-x-2 hover:text-blue-600 transition-colors">
+                                <a href="<?php echo BASE_URL; ?>recenzii" class="flex items-center space-x-2 hover:text-blue-600 transition-colors">
                                     <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                     </svg>
                                     <span class="text-gray-600">100+ Clienți mulțumiți</span>
                                 </a>
-                                <a href="<?php echo BASE_URL; ?>certificari" class="flex items-center space-x-2 hover:text-blue-600 transition-colors">
+                                <a href="<?php echo BASE_URL; ?>resurse-tehnice" class="flex items-center space-x-2 hover:text-blue-600 transition-colors">
                                     <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                     </svg>
                                     <span class="text-gray-600">Expertiză certificată</span>
                                 </a>
-                                <a href="<?php echo BASE_URL; ?>suport" class="flex items-center space-x-2 hover:text-blue-600 transition-colors">
+                                <a href="<?php echo BASE_URL; ?>contact" class="flex items-center space-x-2 hover:text-blue-600 transition-colors">
                                     <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                     </svg>
@@ -187,11 +187,11 @@ require_once 'components/footer.php';
                        class="px-4 py-2 rounded-full bg-white text-gray-600 hover:text-blue-600 hover:shadow-md transition duration-300 border border-gray-200">
                         Agentie Marketing Bucuresti
                     </a>
-                    <a href="<?php echo BASE_URL; ?>servicii/seo-bucuresti" 
+                    <a href="<?php echo BASE_URL; ?>dezvoltare-siteuri-bucuresti" 
                        class="px-4 py-2 rounded-full bg-white text-gray-600 hover:text-blue-600 hover:shadow-md transition duration-300 border border-gray-200">
                         Agentie SEO Bucuresti
                     </a>
-                    <a href="<?php echo BASE_URL; ?>servicii/dezvoltare-website-bucuresti" 
+                    <a href="<?php echo BASE_URL; ?>dezvoltare-siteuri-bucuresti" 
                        class="px-4 py-2 rounded-full bg-white text-gray-600 hover:text-blue-600 hover:shadow-md transition duration-300 border border-gray-200">
                         Dezvoltare Website Bucuresti
                     </a>
@@ -226,7 +226,7 @@ require_once 'components/footer.php';
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <!-- Google Ads -->
                     <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
-                        <a href="<?php echo BASE_URL; ?>servicii/google-ads" class="block">
+                        <a href="<?php echo BASE_URL; ?>promovare-google-ads-promovare-online" class="block">
                             <div class="p-8">
                                 <div class="text-blue-600 mb-4">
                                     <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -252,7 +252,7 @@ require_once 'components/footer.php';
 
                     <!-- SEO -->
                     <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
-                        <a href="<?php echo BASE_URL; ?>servicii/seo" class="block">
+                        <a href="<?php echo BASE_URL; ?>dezvoltare-siteuri-bucuresti" class="block">
                             <div class="p-8">
                                 <div class="text-blue-600 mb-4">
                                     <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -278,7 +278,7 @@ require_once 'components/footer.php';
 
                     <!-- Web Development -->
                     <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
-                        <a href="<?php echo BASE_URL; ?>servicii/web-development" class="block">
+                        <a href="<?php echo BASE_URL; ?>dezvoltare-siteuri-bucuresti" class="block">
                             <div class="p-8">
                                 <div class="text-blue-600 mb-4">
                                     <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -614,7 +614,7 @@ require_once 'components/footer.php';
 
                             <div>
                                 <h4 class="text-xl font-semibold text-gray-900 mb-4">
-                                    <a href="<?php echo BASE_URL; ?>servicii/seo-bucuresti" class="text-blue-600 hover:text-blue-700">
+                                    <a href="<?php echo BASE_URL; ?>dezvoltare-siteuri-bucuresti" class="text-blue-600 hover:text-blue-700">
                                         2. Optimizare SEO pentru Creștere Organică
                                     </a>
                                 </h4>
@@ -634,7 +634,7 @@ require_once 'components/footer.php';
 
                             <div>
                                 <h4 class="text-xl font-semibold text-gray-900 mb-4">
-                                    <a href="<?php echo BASE_URL; ?>servicii/dezvoltare-website-bucuresti" class="text-blue-600 hover:text-blue-700">
+                                    <a href="<?php echo BASE_URL; ?>dezvoltare-siteuri-bucuresti" class="text-blue-600 hover:text-blue-700">
                                         3. Website-uri Performante pentru Afaceri Mici si Mijlocii
                                     </a>
                                 </h4>
@@ -651,7 +651,7 @@ require_once 'components/footer.php';
 
                             <div>
                                 <h4 class="text-xl font-semibold text-gray-900 mb-4">
-                                    <a href="<?php echo BASE_URL; ?>promovare-google-ads-promovare-online" class="text-blue-600 hover:text-blue-700">
+                                    <a href="<?php echo BASE_URL; ?>promovare-social-media" class="text-blue-600 hover:text-blue-700">
                                         4. Social Media Marketing Strategic
                                     </a>
                                 </h4>
@@ -668,7 +668,7 @@ require_once 'components/footer.php';
 
                             <div>
                                 <h4 class="text-xl font-semibold text-gray-900 mb-4">
-                                    <a href="<?php echo BASE_URL; ?>promovare-google-ads-promovare-online" class="text-blue-600 hover:text-blue-700">
+                                    <a href="<?php echo BASE_URL; ?>email-marketing-bucuresti" class="text-blue-600 hover:text-blue-700">
                                         5. Email Marketing pentru Fidelizare și Conversii
                                     </a>
                                 </h4>

@@ -247,4 +247,15 @@ footer {
 
 .card p {
     color: #666;
+}
+
+/* Link Neutral Style - pentru link-uri care nu trebuie sa para link-uri */
+.LinkNeutral:link,
+.LinkNeutral:visited,
+.LinkNeutral:active,
+.LinkNeutral:hover {
+    font-size: inherit !important;
+    color: inherit !important;
+    text-decoration: inherit !important;
+    font-family: inherit !important;
 } 

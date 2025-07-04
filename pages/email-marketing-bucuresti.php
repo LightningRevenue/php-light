@@ -194,7 +194,7 @@ renderNavbar('email');
                 <div class="space-y-8">
                     <!-- Google Ads Service -->
                     <div class="group">
-                        <a href="<?php echo BASE_URL; ?>promovare-google-ads" class="block bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300">
+                        <div class="block bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300">
                             <div class="flex items-start">
                                 <div class="flex-shrink-0">
                                     <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center">
@@ -220,12 +220,12 @@ renderNavbar('email');
                                     </div>
                                 </div>
                             </div>
-                        </a>
+                        </div>
                     </div>
 
                     <!-- Social Media Service -->
                     <div class="group">
-                        <a href="<?php echo BASE_URL; ?>promovare-social-media" class="block bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300">
+                        <div class="block bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300">
                             <div class="flex items-start">
                                 <div class="flex-shrink-0">
                                     <div class="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center">
@@ -251,12 +251,12 @@ renderNavbar('email');
                                     </div>
                                 </div>
                             </div>
-                        </a>
+                        </div>
                     </div>
 
                     <!-- Email Marketing Service -->
                     <div class="group">
-                        <a href="<?php echo BASE_URL; ?>email-marketing" class="block bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300">
+                        <div class="block bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300">
                             <div class="flex items-start">
                                 <div class="flex-shrink-0">
                                     <div class="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center">
@@ -282,7 +282,7 @@ renderNavbar('email');
                                     </div>
                                 </div>
                             </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
 

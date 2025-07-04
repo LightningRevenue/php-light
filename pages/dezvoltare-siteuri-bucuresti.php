@@ -107,8 +107,8 @@ renderNavbar('website');
     <section class="py-16 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-gray-900 mb-4">De Ce să Alegi Serviciile Noastre de Promovare?</h2>
-                <p class="text-xl text-gray-600">Soluții complete de marketing digital pentru creșterea afacerii tale</p>
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">De Ce să Alegi Serviciile Noastre de Dezvoltare Website?</h2>
+                <p class="text-xl text-gray-600">Soluții complete de dezvoltare website pentru creșterea afacerii tale</p>
             </div>
 
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -236,18 +236,18 @@ renderNavbar('website');
                                 </div>
                                 <div class="ml-4">
                                     <h3 class="text-xl font-bold text-gray-900 group-hover:text-purple-600 transition-colors">
-                                        Automatizari pentru Customer Service
+                                        Dezvoltare Site E-commerce
                                         <span class="inline-block ml-2 transform group-hover:translate-x-1 transition-transform">
                                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
                                             </svg>
                                         </span>
                                     </h3>
-                                    <p class="mt-2 text-gray-600">Construiește o prezență puternică si de incredere cu chatbot-uri, si automatizari pentru customer service</p>
+                                    <p class="mt-2 text-gray-600">Creste-ti vânzările online prin dezvoltarea unui magazin online profesional, cu design personalizat, si functionalitati complete</p>
                                     <div class="mt-4 flex flex-wrap gap-2">
                                         <span class="px-3 py-1 bg-purple-50 text-purple-700 text-sm font-medium rounded-full">Live Chat</span>
                                         <span class="px-3 py-1 bg-purple-50 text-purple-700 text-sm font-medium rounded-full">Automatizari Customer Care</span>
-                                        <span class="px-3 py-1 bg-purple-50 text-purple-700 text-sm font-medium rounded-full">Sistem de Tichete</span>
+                                        <span class="px-3 py-1 bg-purple-50 text-purple-700 text-sm font-medium rounded-full">Inventar Actualizat Live</span>
                                     </div>
                                 </div>
                             </div>
@@ -256,7 +256,7 @@ renderNavbar('website');
 
                     <!-- Email Marketing Service -->
                     <div class="group">
-                        <a href="<?php echo BASE_URL; ?>email-marketing" class="block bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300">
+                        <a href="<?php echo BASE_URL; ?>email-marketing-bucuresti" class="block bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300">
                             <div class="flex items-start">
                                 <div class="flex-shrink-0">
                                     <div class="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center">

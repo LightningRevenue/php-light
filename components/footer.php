@@ -8,7 +8,25 @@ function renderFooter() {
                 <!-- Company Info -->
                 <div>
                     <h3 class="text-xl font-bold mb-4">LightningRevenue</h3>
-                    <p class="text-gray-400">Agentie de Marketing Digital Bucuresti si Dezvoltare Website pentru afaceri mici si mijlocii</p>
+                    <p class="text-gray-400 mb-4">Agentie de Marketing Digital Bucuresti si Dezvoltare Website pentru afaceri mici si mijlocii</p>
+                    <ul class="space-y-2">
+                        <li>
+                            <a href="<?php echo BASE_URL; ?>agentie-marketing-online-bucuresti" class="text-gray-400 hover:text-white transition duration-150 flex items-center">
+                                <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                Află cine suntem
+                            </a>
+                        </li>
+                        <li>
+                            <a href="<?php echo BASE_URL; ?>cariere" class="text-gray-400 hover:text-white transition duration-150 flex items-center">
+                                <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                                </svg>
+                                Hai să faci parte din echipa noastră
+                            </a>
+                        </li>
+                    </ul>
                 </div>
 
                 <!-- Quick Links -->
@@ -47,6 +65,11 @@ function renderFooter() {
                                 Promovare Social Media Bucuresti
                             </a>
                         </li>
+                        <li>
+                            <a href="<?php echo BASE_URL; ?>dezvoltare-magazin-online" class="text-gray-400 hover:text-white transition duration-150">
+                                Dezvoltare Magazin Online Bucuresti
+                            </a>
+                        </li>
                     </ul>
                 </div>
 
@@ -55,18 +78,18 @@ function renderFooter() {
                     <h3 class="text-xl font-bold mb-4">Companie</h3>
                     <ul class="space-y-2">
                         <li>
-                            <a href="<?php echo BASE_URL; ?>agentie-marketing-online-bucuresti" class="text-gray-400 hover:text-white transition duration-150">
-                                Despre Agentia Noastra De Marketing
+                            <a href="<?php echo BASE_URL; ?>resurse-tehnice" class="text-gray-400 hover:text-white transition duration-150">
+                                Resurse Tehnice Companie
                             </a>
                         </li>
                         <li>
                             <a href="<?php echo BASE_URL; ?>recenzii" class="text-gray-400 hover:text-white transition duration-150">
-                                Recenzii Clienti LightningRevenue
+                                Recenzii
                             </a>
                         </li>
                         <li>
-                            <a href="<?php echo BASE_URL; ?>resurse-tehnice" class="text-gray-400 hover:text-white transition duration-150">
-                                Resurse Tehnice Companie
+                            <a href="<?php echo BASE_URL; ?>portofoliu" class="text-gray-400 hover:text-white transition duration-150">
+                                Portofoliu
                             </a>
                         </li>
                         <li>
