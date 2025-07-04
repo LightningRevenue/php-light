@@ -70,7 +70,15 @@ $pages = [
     "pozitii/co-founder" => [
         "priority" => "0.9",
         "changefreq" => "weekly"
-    ]
+    ],
+    "portofoliu" => [
+        "priority" => "0.9",
+        "changefreq" => "weekly"
+    ],
+    "recenzii" => [
+        "priority" => "0.9",
+        "changefreq" => "weekly"
+    ],
     
     // Pagini legale și resurse
     "termeni-si-conditii" => [
