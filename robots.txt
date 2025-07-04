@@ -42,4 +42,4 @@ Allow: /politica-cookie
 Allow: /404
 
 # Sitemap
-Sitemap: https://php-light.com/php-light/sitemap.php 
+Sitemap: https://lightning-revenue.com/sitemap.php 
