@@ -16,17 +16,17 @@ function renderFooter() {
                     <h3 class="text-xl font-bold mb-4">Servicii</h3>
                     <ul class="space-y-2">
                         <li>
-                            <a href="/php-light/promovare-google-ads-promovare-online" class="text-gray-400 hover:text-white transition duration-150">
+                            <a href="<?php echo BASE_URL; ?>promovare-google-ads-promovare-online" class="text-gray-400 hover:text-white transition duration-150">
                                 Promovare Online Bucuresti
                             </a>
                         </li>
                         <li>
-                            <a href="/php-light/dezvoltare-siteuri-bucuresti" class="text-gray-400 hover:text-white transition duration-150">
+                            <a href="<?php echo BASE_URL; ?>dezvoltare-siteuri-bucuresti" class="text-gray-400 hover:text-white transition duration-150">
                                 Dezvoltare Website Bucuresti
                             </a>
                         </li>
                         <li>
-                            <a href="/php-light/email-marketing-bucuresti" class="text-gray-400 hover:text-white transition duration-150">
+                            <a href="<?php echo BASE_URL; ?>email-marketing-bucuresti" class="text-gray-400 hover:text-white transition duration-150">
                                 Email Marketing Bucuresti
                             </a>
                         </li>
@@ -38,17 +38,17 @@ function renderFooter() {
                     <h3 class="text-xl font-bold mb-4">Companie</h3>
                     <ul class="space-y-2">
                         <li>
-                            <a href="/php-light/despre-noi" class="text-gray-400 hover:text-white transition duration-150">
+                            <a href="<?php echo BASE_URL; ?>despre-noi" class="text-gray-400 hover:text-white transition duration-150">
                                 Agentie Online Bucuresti
                             </a>
                         </li>
                         <li>
-                            <a href="/php-light/resurse-tehnice" class="text-gray-400 hover:text-white transition duration-150">
+                            <a href="<?php echo BASE_URL; ?>resurse-tehnice" class="text-gray-400 hover:text-white transition duration-150">
                                 Resurse Tehnice
                             </a>
                         </li>
                         <li>
-                            <a href="/php-light/contact" class="text-gray-400 hover:text-white transition duration-150">
+                            <a href="<?php echo BASE_URL; ?>contact" class="text-gray-400 hover:text-white transition duration-150">
                                 Contacteaza-ne
                             </a>
                         </li>
@@ -60,17 +60,17 @@ function renderFooter() {
                     <h3 class="text-xl font-bold mb-4">Legal</h3>
                     <ul class="space-y-2 mb-6">
                         <li>
-                            <a href="/php-light/termeni-si-conditii" class="text-gray-400 hover:text-white transition duration-150">
+                            <a href="<?php echo BASE_URL; ?>termeni-si-conditii" class="text-gray-400 hover:text-white transition duration-150">
                                 Termeni și Condiții
                             </a>
                         </li>
                         <li>
-                            <a href="/php-light/politica-cookie" class="text-gray-400 hover:text-white transition duration-150">
+                            <a href="<?php echo BASE_URL; ?>politica-cookie" class="text-gray-400 hover:text-white transition duration-150">
                                 Politica Cookie
                             </a>
                         </li>
                         <li>
-                            <a href="/php-light/politica-confidentialitate" class="text-gray-400 hover:text-white transition duration-150">
+                            <a href="<?php echo BASE_URL; ?>politica-confidentialitate" class="text-gray-400 hover:text-white transition duration-150">
                                 Politica de Confidențialitate
                             </a>
                         </li>
