@@ -20,10 +20,10 @@ renderNavbar('promovare');
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div class="text-left">
                     <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                        Servicii Promovare Google Ads și <span class="text-blue-600">Promovare Online</span> în București
+                        Promovare Social Media cu <span class="text-blue-600">Rezultate GARANTATE</span>
                     </h1>
                     <p class="text-xl text-gray-600 mb-8">
-                        Creștem afacerea ta prin campanii Google Ads optimizate și strategii complete de marketing online
+                        Promovare Social Media si Social Media Management cu rezultate rapide pentru a creste traficul si vanzarile.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4">
                         <a href="<?php echo BASE_URL; ?>contact" 
@@ -68,7 +68,7 @@ renderNavbar('promovare');
                 </div>
                 <div class="relative">
                     <div class="absolute inset-0 bg-blue-100 rounded-3xl transform rotate-3"></div>
-                    <img src="<?php echo BASE_URL; ?>assets/images/agentie-google-ads.jpg" alt="Google Ads Dashboard" class="relative rounded-2xl shadow-lg w-full h-auto z-10">
+                    <img src="<?php echo BASE_URL; ?>assets/images/promovare-social-media.jpg" alt="Google Ads Dashboard" class="relative rounded-2xl shadow-lg w-full h-auto z-10">
                 </div>
             </div>
         </div>
@@ -79,10 +79,10 @@ renderNavbar('promovare');
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-wrap gap-3 justify-center">
                 <span class="px-4 py-2 rounded-full bg-white text-gray-700 text-sm font-medium shadow-sm border border-gray-100 hover:border-blue-400 transition-colors cursor-pointer">
-                    Promovare Online
+                    Promovare Social Media
                 </span>
                 <span class="px-4 py-2 rounded-full bg-white text-gray-700 text-sm font-medium shadow-sm border border-gray-100 hover:border-blue-400 transition-colors cursor-pointer">
-                    Promovare Google Ads
+                    Social Media Management
                 </span>
                 <span class="px-4 py-2 rounded-full bg-white text-gray-700 text-sm font-medium shadow-sm border border-gray-100 hover:border-blue-400 transition-colors cursor-pointer">
                     Promovare Platita
@@ -91,13 +91,13 @@ renderNavbar('promovare');
                     Marketing Digital
                 </span>
                 <span class="px-4 py-2 rounded-full bg-white text-gray-700 text-sm font-medium shadow-sm border border-gray-100 hover:border-blue-400 transition-colors cursor-pointer">
-                    Promovare Online Bucuresti
+                    Social Media Marketing
                 </span>
                 <span class="px-4 py-2 rounded-full bg-white text-gray-700 text-sm font-medium shadow-sm border border-gray-100 hover:border-blue-400 transition-colors cursor-pointer">
-                    Anunturi Online
+                    TikTok Ads
                 </span>
                 <span class="px-4 py-2 rounded-full bg-white text-gray-700 text-sm font-medium shadow-sm border border-gray-100 hover:border-blue-400 transition-colors cursor-pointer">
-                    Marketing Online
+                    Facebook Ads
                 </span>
             </div>
         </div>
@@ -112,70 +112,70 @@ renderNavbar('promovare');
             </div>
 
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Google Ads -->
-                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:border-blue-500 transition-colors">
-                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/>
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-2">Promovare Google Ads</h3>
-                    <p class="text-gray-600">Campanii optimizate pentru maximizarea ROI-ului și atragerea clienților interesați de serviciile tale</p>
-                </div>
-
-                <!-- Marketing Online -->
-                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:border-blue-500 transition-colors">
-                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-2">Marketing Online</h3>
-                    <p class="text-gray-600">Strategii complete de marketing digital adaptate obiectivelor tale de business</p>
-                </div>
-
-                <!-- Email Marketing -->
-                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:border-blue-500 transition-colors">
-                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-2">Email Marketing</h3>
-                    <p class="text-gray-600">Campanii de email personalizate pentru menținerea relației cu clienții și creșterea conversiilor</p>
-                </div>
-
-                <!-- Social Media -->
-                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:border-blue-500 transition-colors">
-                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"/>
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-2">Promovare Social Media</h3>
-                    <p class="text-gray-600">Creșterea prezenței tale în social media prin conținut relevant și campanii targetate</p>
-                </div>
-
-                <!-- TikTok -->
-                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:border-blue-500 transition-colors">
-                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/>
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-2">Promovare TikTok</h3>
-                    <p class="text-gray-600">Strategii creative pentru TikTok adaptate generației tinere și trendurilor actuale</p>
-                </div>
-
-                <!-- Influencer Marketing -->
+                <!-- Social Media Marketing -->
                 <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:border-blue-500 transition-colors">
                     <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
                         <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
                         </svg>
                     </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Promovare Social Media</h3>
+                    <p class="text-gray-600">Campanii optimizate pentru maximizarea ROI-ului și atragerea clienților interesați de serviciile tale</p>
+                </div>
+
+                <!-- Instagram Ads -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:border-blue-500 transition-colors">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Instagram Ads</h3>
+                    <p class="text-gray-600">Campanii de promovare pe Instagram care genereaza rezultate rapide</p>
+                </div>
+
+                <!-- Facebook Ads -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:border-blue-500 transition-colors">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Facebook Ads</h3>
+                    <p class="text-gray-600">Rulam reclame pe Facebook pentru a atinge publicul potrivit</p>
+                </div>
+
+                <!-- TikTok Ads -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:border-blue-500 transition-colors">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">TikTok Ads</h3>
+                    <p class="text-gray-600">Conecteaza-te mai usor cu Gen Z prin reclame pe TikTok</p>
+                </div>
+
+                <!-- Social Media Management -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:border-blue-500 transition-colors">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Social Media Management</h3>
+                    <p class="text-gray-600">Focuseaza-te pe ce conteaza, iar noi te ajutam cu automatizari si strategii de marketing</p>
+                </div>
+
+                <!-- Influencer Marketing -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:border-blue-500 transition-colors">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"/>
+                        </svg>
+                    </div>
                     <h3 class="text-xl font-bold text-gray-900 mb-2">Influencer Marketing</h3>
-                    <p class="text-gray-600">Colaborări strategice cu influenceri pentru creșterea awareness-ului și credibilității brandului</p>
+                    <p class="text-gray-600">Lucreaza cu influencerii care au impact pe nisa ta de clienti</p>
                 </div>
             </div>
         </div>
@@ -193,96 +193,90 @@ renderNavbar('promovare');
                 <!-- Left Column - Services List -->
                 <div class="space-y-8">
                     <!-- Google Ads Service -->
-                    <div class="group">
-                        <a href="<?php echo BASE_URL; ?>promovare-google-ads" class="block bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300">
-                            <div class="flex items-start">
-                                <div class="flex-shrink-0">
-                                    <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center">
-                                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="ml-4">
-                                    <h3 class="text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
-                                        Promovare Google Ads
-                                        <span class="inline-block ml-2 transform group-hover:translate-x-1 transition-transform">
-                                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
-                                            </svg>
-                                        </span>
-                                    </h3>
-                                    <p class="mt-2 text-gray-600">Maximizează-ți vizibilitatea online prin campanii Google Ads optimizate pentru rezultate. Targetare precisă, costuri controlate și ROI măsurabil.</p>
-                                    <div class="mt-4 flex flex-wrap gap-2">
-                                        <span class="px-3 py-1 bg-blue-50 text-blue-700 text-sm font-medium rounded-full">Search Ads</span>
-                                        <span class="px-3 py-1 bg-blue-50 text-blue-700 text-sm font-medium rounded-full">Display</span>
-                                        <span class="px-3 py-1 bg-blue-50 text-blue-700 text-sm font-medium rounded-full">Remarketing</span>
-                                    </div>
+                    <div class="group bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0">
+                                <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center">
+                                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/>
+                                    </svg>
                                 </div>
                             </div>
-                        </a>
+                            <div class="ml-4">
+                                <h3 class="text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
+                                    Social Media Marketing
+                                    <span class="inline-block ml-2 transform group-hover:translate-x-1 transition-transform">
+                                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                                        </svg>
+                                    </span>
+                                </h3>
+                                <p class="mt-2 text-gray-600">Servicii complete de marketing social pentru a atinge publicul potrivit, cu costuri controlate si rezultate maxime.</p>
+                                <div class="mt-4 flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-blue-50 text-blue-700 text-sm font-medium rounded-full">Facebook Ads</span>
+                                    <span class="px-3 py-1 bg-blue-50 text-blue-700 text-sm font-medium rounded-full">Optimizare Demografice</span>
+                                    <span class="px-3 py-1 bg-blue-50 text-blue-700 text-sm font-medium rounded-full">Remarketing</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <!-- Social Media Service -->
-                    <div class="group">
-                        <a href="<?php echo BASE_URL; ?>promovare-social-media" class="block bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300">
-                            <div class="flex items-start">
-                                <div class="flex-shrink-0">
-                                    <div class="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center">
-                                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"/>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="ml-4">
-                                    <h3 class="text-xl font-bold text-gray-900 group-hover:text-purple-600 transition-colors">
-                                        Promovare Social Media
-                                        <span class="inline-block ml-2 transform group-hover:translate-x-1 transition-transform">
-                                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
-                                            </svg>
-                                        </span>
-                                    </h3>
-                                    <p class="mt-2 text-gray-600">Construiește o prezență puternică în social media prin conținut engaging și campanii targetate pentru audiența ta ideală.</p>
-                                    <div class="mt-4 flex flex-wrap gap-2">
-                                        <span class="px-3 py-1 bg-purple-50 text-purple-700 text-sm font-medium rounded-full">Facebook</span>
-                                        <span class="px-3 py-1 bg-purple-50 text-purple-700 text-sm font-medium rounded-full">Instagram</span>
-                                        <span class="px-3 py-1 bg-purple-50 text-purple-700 text-sm font-medium rounded-full">LinkedIn</span>
-                                    </div>
+                    <div class="group bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0">
+                                <div class="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center">
+                                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+                                    </svg>
                                 </div>
                             </div>
-                        </a>
+                            <div class="ml-4">
+                                <h3 class="text-xl font-bold text-gray-900 group-hover:text-purple-600 transition-colors">
+                                    Social Media Management
+                                    <span class="inline-block ml-2 transform group-hover:translate-x-1 transition-transform">
+                                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                                        </svg>
+                                    </span>
+                                </h3>
+                                <p class="mt-2 text-gray-600">Concentreaza-te pe ce conteaza, si lasa-ne pe noi sa iti construim branding-ul pentru rezultate impecabile.</p>
+                                <div class="mt-4 flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-purple-50 text-purple-700 text-sm font-medium rounded-full">Management Social Media</span>
+                                    <span class="px-3 py-1 bg-purple-50 text-purple-700 text-sm font-medium rounded-full">Postari Saptamanale</span>
+                                    <span class="px-3 py-1 bg-purple-50 text-purple-700 text-sm font-medium rounded-full">Analizare Tendinte si Adaptabilitate</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <!-- Email Marketing Service -->
-                    <div class="group">
-                        <a href="<?php echo BASE_URL; ?>email-marketing-bucuresti" class="block bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300">
-                            <div class="flex items-start">
-                                <div class="flex-shrink-0">
-                                    <div class="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center">
-                                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="ml-4">
-                                    <h3 class="text-xl font-bold text-gray-900 group-hover:text-green-600 transition-colors">
-                                        Email Marketing
-                                        <span class="inline-block ml-2 transform group-hover:translate-x-1 transition-transform">
-                                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
-                                            </svg>
-                                        </span>
-                                    </h3>
-                                    <p class="mt-2 text-gray-600">Transformă subscribers în clienți fideli prin campanii de email personalizate și automatizări inteligente.</p>
-                                    <div class="mt-4 flex flex-wrap gap-2">
-                                        <span class="px-3 py-1 bg-green-50 text-green-700 text-sm font-medium rounded-full">Newsletters</span>
-                                        <span class="px-3 py-1 bg-green-50 text-green-700 text-sm font-medium rounded-full">Automatizări</span>
-                                        <span class="px-3 py-1 bg-green-50 text-green-700 text-sm font-medium rounded-full">Segmentare</span>
-                                    </div>
+                    <div class="group bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0">
+                                <div class="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center">
+                                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+                                    </svg>
                                 </div>
                             </div>
-                        </a>
+                            <div class="ml-4">
+                                <h3 class="text-xl font-bold text-gray-900 group-hover:text-green-600 transition-colors">
+                                    Influencer Marketing & UGC Content
+                                    <span class="inline-block ml-2 transform group-hover:translate-x-1 transition-transform">
+                                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                                        </svg>
+                                    </span>
+                                </h3>
+                                <p class="mt-2 text-gray-600">Apari favorabil pe social media alaturi de influencerii care au impact, cat si cu un continut de calitate care atrage vizionari.</p>
+                                <div class="mt-4 flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-green-50 text-green-700 text-sm font-medium rounded-full">Continut Generat Uman</span>
+                                    <span class="px-3 py-1 bg-green-50 text-green-700 text-sm font-medium rounded-full">Review-uri de Servicii si Produse</span>
+                                    <span class="px-3 py-1 bg-green-50 text-green-700 text-sm font-medium rounded-full">Marketing cu Influenceri</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -431,13 +425,13 @@ renderNavbar('promovare');
     <section class="py-16 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="max-w-4xl mx-auto">
-                <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">Tot ce Trebuie să Știi Despre Promovarea Online în 2025</h2>
+                <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">Tot ce Trebuie să Știi Despre Social Media în 2025</h2>
                 
                 <!-- Timeline and Process -->
                 <div class="mb-12">
-                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Cât Durează să Vezi Rezultate în Marketing Online?</h3>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Cât Durează să Vezi Rezultatele din Social Media?</h3>
                     <div class="prose prose-lg text-gray-600 max-w-none">
-                        <p class="mb-4">Promovarea online este un proces continuu, iar rezultatele apar treptat, în funcție de strategia aleasă:</p>
+                        <p class="mb-4">Acest tip de servicii si promovare aduce rezultate rapide, dar sustenabile:</p>
                         
                         <ul class="space-y-4 mb-6">
                             <li class="flex items-start">
@@ -445,7 +439,7 @@ renderNavbar('promovare');
                                     <span class="text-blue-600 text-sm font-semibold">1</span>
                                 </span>
                                 <div>
-                                    <span class="font-semibold text-gray-900">Primele 24-48 ore:</span> Începi să vezi primele click-uri și impresii în campaniile Google Ads. Traficul începe să crească imediat după activarea campaniilor.
+                                    <span class="font-semibold text-gray-900">Primele saptamani :</span> Începi să vezi primele click-uri și impresii datorate unor canale de Social Media bine puse la punct.
                                 </div>
                             </li>
                             <li class="flex items-start">
@@ -453,7 +447,7 @@ renderNavbar('promovare');
                                     <span class="text-blue-600 text-sm font-semibold">2</span>
                                 </span>
                                 <div>
-                                    <span class="font-semibold text-gray-900">Prima săptămână:</span> Colectăm date suficiente pentru primele optimizări. Ajustăm targetarea, programul de difuzare și licitațiile pentru maximizarea performanței.
+                                    <span class="font-semibold text-gray-900">Prima Luna :</span> Observam tendintele, optimizam campanile si vedem rezultatele necesare intelegerii publicului tau tinta.
                                 </div>
                             </li>
                             <li class="flex items-start">
@@ -461,7 +455,7 @@ renderNavbar('promovare');
                                     <span class="text-blue-600 text-sm font-semibold">3</span>
                                 </span>
                                 <div>
-                                    <span class="font-semibold text-gray-900">Prima lună:</span> Campaniile ating maturitatea, iar costul per conversie începe să se stabilizeze. Implementăm strategii de remarketing pentru creșterea ratei de conversie.
+                                    <span class="font-semibold text-gray-900">3-6 Luni :</span> Strategiile implementate sunt complet rafinate, baza de utilizatori activi incepe sa creasca, iar rezultatele incep sa fie sustenabile.
                                 </div>
                             </li>
                             <li class="flex items-start">
@@ -469,7 +463,7 @@ renderNavbar('promovare');
                                     <span class="text-blue-600 text-sm font-semibold">4</span>
                                 </span>
                                 <div>
-                                    <span class="font-semibold text-gray-900">3-6 luni:</span> Rezultate consistente și predictibile. Strategiile sunt rafinate bazate pe date concrete, iar ROI-ul atinge nivele optime.
+                                    <span class="font-semibold text-gray-900">In Continuare :</span> Optimizam continuu, ne adaptam la schimbari, cautam influenceri si parteneriate strategice, iar rezultatele sunt constante.
                                 </div>
                             </li>
                         </ul>
@@ -478,9 +472,9 @@ renderNavbar('promovare');
 
                 <!-- Budget Section -->
                 <div class="mb-12">
-                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Ce Buget este Necesar pentru Promovare Online?</h3>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Ce Buget este Necesar pentru Servicii Social Media?</h3>
                     <div class="prose prose-lg text-gray-600 max-w-none">
-                        <p class="mb-4">În marketing digital, fiecare buget poate fi eficient dacă este gestionat corect. Succesul nu depinde doar de suma investită, ci de strategia implementată:</p>
+                        <p class="mb-4">În social media, fiecare buget poate fi eficient dacă este gestionat corect. Succesul nu depinde doar de suma investită, ci de strategia implementată:</p>
 
                         <div class="bg-gray-50 rounded-xl p-6 mb-6">
                             <h4 class="text-xl font-semibold text-gray-900 mb-3">Buget Flexibil, Rezultate Adaptate</h4>
@@ -489,7 +483,7 @@ renderNavbar('promovare');
                                     <svg class="w-5 h-5 text-blue-600 mt-1 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                                     </svg>
-                                    <span>Start de la 300€/lună pentru campanii Google Ads focusate</span>
+                                    <span>Start de la 300€/lună pentru Social Media Marketing focusat pe tintirea demograficelor corecte</span>
                                 </li>
                                 <li class="flex items-start">
                                     <svg class="w-5 h-5 text-blue-600 mt-1 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -522,13 +516,13 @@ renderNavbar('promovare');
                                         <svg class="w-5 h-5 text-green-500 mt-1 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                                         </svg>
-                                        <span>Creștere imediată în traficul website-ului</span>
+                                        <span>Creștere usoara în traficul website-ului</span>
                                     </li>
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-green-500 mt-1 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                                         </svg>
-                                        <span>Primele lead-uri în 24-48 ore</span>
+                                        <span>Primele lead-uri în primele saptamani</span>
                                     </li>
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-green-500 mt-1 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">

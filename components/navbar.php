@@ -8,7 +8,9 @@ function renderNavbar($activePage = '') {
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
             <div class="flex justify-between items-center text-sm">
                 <div class="flex items-center">
-                    <?php if ($activePage === 'promovare'): ?>
+                    <?php if ($activePage === 'google-ads'): ?>
+                        <span class="font-medium">Promovare Google Ads | Agentie Google Ads</span>
+                    <?php elseif ($activePage === 'promovare'): ?>
                         <span class="font-medium">Servicii Promovare Online Bucuresti | Promovare Google Ads</span>
                     <?php elseif ($activePage === 'website'): ?>
                         <span class="font-medium">Dezvoltare Website Bucuresti | Dezvoltare Magazin Online</span>
