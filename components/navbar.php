@@ -36,29 +36,29 @@ function renderNavbar($activePage = '') {
                 <div class="flex">
                     <!-- Logo -->
                     <div class="flex-shrink-0 flex items-center">
-                        <a href="<?php echo url(); ?>" class="flex items-center">
-                            <img src="<?php echo image('logo-lightning-revenue.png'); ?>" alt="Lightning Revenue" class="h-10 w-auto">
+                        <a href="<?php echo BASE_URL; ?>" class="flex items-center">
+                            <img src="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png" alt="Lightning Revenue" class="h-10 w-auto">
                         </a>
                     </div>
                 </div>
 
                 <!-- Navigation Links -->
                 <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
-                    <a href="<?php echo url('promovare-google-ads-promovare-online'); ?>" 
+                    <a href="<?php echo BASE_URL; ?>promovare-google-ads-promovare-online" 
                        class="<?php echo $activePage === 'promovare' 
                             ? 'border-blue-500 text-gray-900' 
                             : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'; ?> 
                             inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                         Servicii Promovare Online Bucuresti
                     </a>
-                    <a href="<?php echo url('dezvoltare-siteuri-bucuresti'); ?>" 
+                    <a href="<?php echo BASE_URL; ?>dezvoltare-siteuri-bucuresti" 
                        class="<?php echo $activePage === 'dezvoltare' 
                             ? 'border-blue-500 text-gray-900' 
                             : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'; ?> 
                             inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                         Dezvoltare Website Bucuresti
                     </a>
-                    <a href="<?php echo url('email-marketing-bucuresti'); ?>"
+                    <a href="<?php echo BASE_URL; ?>email-marketing-bucuresti"
                        class="<?php echo $activePage === 'email' 
                             ? 'border-blue-500 text-gray-900' 
                             : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'; ?> 
@@ -85,21 +85,21 @@ function renderNavbar($activePage = '') {
         <!-- Mobile menu -->
         <div class="hidden sm:hidden" id="mobile-menu">
             <div class="space-y-1 pt-2 pb-3">
-                <a href="<?php echo url('promovare-google-ads-promovare-online'); ?>" 
+                <a href="<?php echo BASE_URL; ?>promovare-google-ads-promovare-online" 
                     class="<?php echo $activePage === 'promovare' 
                         ? 'bg-blue-50 border-blue-500 text-blue-700' 
                         : 'border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700'; ?> 
                         block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
                     Servicii Promovare Online Bucuresti
                 </a>
-                <a href="<?php echo url('dezvoltare-siteuri-bucuresti'); ?>" 
+                <a href="<?php echo BASE_URL; ?>dezvoltare-siteuri-bucuresti" 
                     class="<?php echo $activePage === 'dezvoltare' 
                         ? 'bg-blue-50 border-blue-500 text-blue-700' 
                         : 'border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700'; ?> 
                         block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
                     Dezvoltare Website Bucuresti
                 </a>
-                <a href="<?php echo url('email-marketing-bucuresti'); ?>"
+                <a href="<?php echo BASE_URL; ?>email-marketing-bucuresti"
                    class="<?php echo $activePage === 'email' 
                         ? 'bg-blue-50 border-blue-500 text-blue-700' 
                         : 'border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700'; ?> 
