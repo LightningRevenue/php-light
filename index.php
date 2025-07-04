@@ -347,7 +347,7 @@ require_once 'components/footer.php';
                 </div>
 
                 <div class="text-center mt-12">
-                    <a href="/php-light/contact" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition duration-300">
+                    <a href="<?php echo BASE_URL; ?>contact" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition duration-300">
                         Discută cu un expert
                         <svg class="ml-2 -mr-1 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
@@ -465,7 +465,7 @@ require_once 'components/footer.php';
                     <p class="text-center text-gray-600 mb-8">
                         Completează formularul și te contactăm în maxim 24 de ore
                     </p>
-                    <form action="/php-light/process-form.php" method="POST" class="space-y-6">
+                    <form action="<?php echo BASE_URL; ?>process-form.php" method="POST" class="space-y-6">
                         <div class="grid md:grid-cols-2 gap-6">
                             <div>
                                 <label for="nume" class="block text-sm font-medium text-gray-700 mb-1">Nume</label>
@@ -537,7 +537,7 @@ require_once 'components/footer.php';
                         <div class="space-y-12">
                             <div>
                                 <h4 class="text-xl font-semibold text-gray-900 mb-4">
-                                    <a href="/php-light/promovare-google-ads-promovare-online" class="text-blue-600 hover:text-blue-700">
+                                    <a href="<?php echo BASE_URL; ?>promovare-google-ads-promovare-online" class="text-blue-600 hover:text-blue-700">
                                         1. Campanii Google Ads cu Impact Imediat
                                     </a>
                                 </h4>
@@ -557,7 +557,7 @@ require_once 'components/footer.php';
 
                             <div>
                                 <h4 class="text-xl font-semibold text-gray-900 mb-4">
-                                    <a href="/php-light/servicii/seo-bucuresti" class="text-blue-600 hover:text-blue-700">
+                                    <a href="<?php echo BASE_URL; ?>servicii/seo-bucuresti" class="text-blue-600 hover:text-blue-700">
                                         2. Optimizare SEO pentru Creștere Organică
                                     </a>
                                 </h4>
@@ -577,7 +577,7 @@ require_once 'components/footer.php';
 
                             <div>
                                 <h4 class="text-xl font-semibold text-gray-900 mb-4">
-                                    <a href="/php-light/servicii/dezvoltare-website-bucuresti" class="text-blue-600 hover:text-blue-700">
+                                    <a href="<?php echo BASE_URL; ?>servicii/dezvoltare-website-bucuresti" class="text-blue-600 hover:text-blue-700">
                                         3. Website-uri Performante pentru Afaceri Mici si Mijlocii
                                     </a>
                                 </h4>
@@ -594,7 +594,7 @@ require_once 'components/footer.php';
 
                             <div>
                                 <h4 class="text-xl font-semibold text-gray-900 mb-4">
-                                    <a href="/php-light/promovare-google-ads-promovare-online" class="text-blue-600 hover:text-blue-700">
+                                    <a href="<?php echo BASE_URL; ?>promovare-google-ads-promovare-online" class="text-blue-600 hover:text-blue-700">
                                         4. Social Media Marketing Strategic
                                     </a>
                                 </h4>
@@ -611,7 +611,7 @@ require_once 'components/footer.php';
 
                             <div>
                                 <h4 class="text-xl font-semibold text-gray-900 mb-4">
-                                    <a href="/php-light/promovare-google-ads-promovare-online" class="text-blue-600 hover:text-blue-700">
+                                    <a href="<?php echo BASE_URL; ?>promovare-google-ads-promovare-online" class="text-blue-600 hover:text-blue-700">
                                         5. Email Marketing pentru Fidelizare și Conversii
                                     </a>
                                 </h4>
@@ -645,7 +645,7 @@ require_once 'components/footer.php';
                 </div>
 
                 <div class="text-center mt-12">
-                    <a href="/php-light/contact" class="inline-flex items-center px-8 py-4 border border-transparent text-lg font-semibold rounded-lg text-white bg-blue-600 hover:bg-blue-700 transition duration-300">
+                    <a href="<?php echo BASE_URL; ?>contact" class="inline-flex items-center px-8 py-4 border border-transparent text-lg font-semibold rounded-lg text-white bg-blue-600 hover:bg-blue-700 transition duration-300">
                         Programează o Consultație Gratuită
                         <svg class="ml-2 -mr-1 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
@@ -743,7 +743,7 @@ require_once 'components/footer.php';
                     Hai să discutăm despre cum putem crește afacerea ta prin marketing digital performant
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                    <a href="/php-light/contact" 
+                    <a href="<?php echo BASE_URL; ?>contact" 
                         class="inline-flex items-center px-8 py-4 border border-transparent text-lg font-semibold rounded-lg text-white bg-blue-600 hover:bg-blue-700 transition duration-300">
                         Programează Consultație Gratuită
                         <svg class="ml-2 -mr-1 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

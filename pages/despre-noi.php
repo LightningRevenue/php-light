@@ -46,7 +46,7 @@ renderNavbar();
                                 <p class="text-gray-600 mb-4">
                                     Creăm website-uri moderne, optimizate și ușor de administrat pentru afacerea ta.
                                 </p>
-                                <a href="/php-light/dezvoltare-siteuri-bucuresti" class="text-blue-600 hover:text-blue-800">
+                                <a href="<?php echo BASE_URL; ?>dezvoltare-siteuri-bucuresti" class="text-blue-600 hover:text-blue-800">
                                     Află mai multe →
                                 </a>
                             </div>
@@ -56,7 +56,7 @@ renderNavbar();
                                 <p class="text-gray-600 mb-4">
                                     Strategii personalizate de advertising pentru maximizarea ROI-ului tău.
                                 </p>
-                                <a href="/php-light/promovare-google-ads-promovare-online" class="text-blue-600 hover:text-blue-800">
+                                <a href="<?php echo BASE_URL; ?>promovare-google-ads-promovare-online" class="text-blue-600 hover:text-blue-800">
                                     Află mai multe →
                                 </a>
                             </div>
@@ -66,7 +66,7 @@ renderNavbar();
                                 <p class="text-gray-600 mb-4">
                                     Campanii de email marketing care convertesc și construiesc relații durabile.
                                 </p>
-                                <a href="/php-light/email-marketing-bucuresti" class="text-blue-600 hover:text-blue-800">
+                                <a href="<?php echo BASE_URL; ?>email-marketing-bucuresti" class="text-blue-600 hover:text-blue-800">
                                     Află mai multe →
                                 </a>
                             </div>
@@ -76,7 +76,7 @@ renderNavbar();
                                 <p class="text-gray-600 mb-4">
                                     Explorează resursele și instrumentele noastre pentru dezvoltatori.
                                 </p>
-                                <a href="/php-light/resurse-tehnice" class="text-blue-600 hover:text-blue-800">
+                                <a href="<?php echo BASE_URL; ?>resurse-tehnice" class="text-blue-600 hover:text-blue-800">
                                     Află mai multe →
                                 </a>
                             </div>
