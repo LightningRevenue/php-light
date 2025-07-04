@@ -1,4 +1,5 @@
 <?php
+require_once 'config/config.php';
 require_once 'components/navbar.php';
 require_once 'components/footer.php';
 ?>
@@ -26,14 +27,14 @@ require_once 'components/footer.php';
                         </h1>
                         <div class="text-xl text-gray-600 space-y-4">
                             <p>
-                                Suntem o <a href="/php-light/pages/despre-noi.php" class="text-blue-600 hover:text-blue-700 underline">agenție de marketing digital</a> din București specializată în:
+                                Suntem o <a href="<?php echo BASE_URL; ?>despre-noi" class="text-blue-600 hover:text-blue-700 underline">agenție de marketing digital</a> din București specializată în:
                             </p>
                             <ul class="space-y-2 ml-4">
                                 <li class="flex items-center">
                                     <svg class="w-5 h-5 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                     </svg>
-                                    <a href="/php-light/pages/servicii/google-ads.php" class="hover:text-blue-600 transition-colors">
+                                    <a href="<?php echo BASE_URL; ?>servicii/google-ads" class="hover:text-blue-600 transition-colors">
                                         Campanii Google Ads performante
                                     </a>
                                 </li>
@@ -41,7 +42,7 @@ require_once 'components/footer.php';
                                     <svg class="w-5 h-5 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                     </svg>
-                                    <a href="/php-light/pages/servicii/seo.php" class="hover:text-blue-600 transition-colors">
+                                    <a href="<?php echo BASE_URL; ?>servicii/seo" class="hover:text-blue-600 transition-colors">
                                         Optimizare SEO pentru vizibilitate maximă
                                     </a>
                                 </li>
@@ -49,25 +50,25 @@ require_once 'components/footer.php';
                                     <svg class="w-5 h-5 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                     </svg>
-                                    <a href="/php-light/pages/servicii/web-development.php" class="hover:text-blue-600 transition-colors">
+                                    <a href="<?php echo BASE_URL; ?>servicii/web-development" class="hover:text-blue-600 transition-colors">
                                         Dezvoltare website-uri și magazine online
                                     </a>
                                 </li>
                             </ul>
                             <p class="pt-2">
-                                Descoperă cum putem să <a href="/php-light/pages/servicii/analytics.php" class="text-blue-600 hover:text-blue-700 underline">măsurăm și să îmbunătățim</a> prezența ta online pentru rezultate excepționale.
+                                Descoperă cum putem să <a href="<?php echo BASE_URL; ?>servicii/analytics" class="text-blue-600 hover:text-blue-700 underline">măsurăm și să îmbunătățim</a> prezența ta online pentru rezultate excepționale.
                             </p>
                         </div>
 
                         <div class="flex flex-col sm:flex-row gap-4">
-                            <a href="/php-light/pages/contact.php" 
+                            <a href="<?php echo BASE_URL; ?>contact" 
                                class="inline-flex justify-center items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition duration-150">
                                 Contactează-ne
                                 <svg class="ml-2 -mr-1 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                                 </svg>
                             </a>
-                            <a href="/php-light/pages/portofoliu.php"
+                            <a href="<?php echo BASE_URL; ?>portofoliu"
                                class="inline-flex justify-center items-center px-8 py-3 border border-gray-300 text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 transition duration-150">
                                 Vezi Portofoliu
                             </a>
@@ -76,19 +77,19 @@ require_once 'components/footer.php';
                         <!-- Trust Indicators -->
                         <div class="pt-8 border-t border-gray-200">
                             <div class="grid grid-cols-2 md:grid-cols-3 gap-4 items-center">
-                                <a href="/php-light/pages/testimoniale.php" class="flex items-center space-x-2 hover:text-blue-600 transition-colors">
+                                <a href="<?php echo BASE_URL; ?>testimoniale" class="flex items-center space-x-2 hover:text-blue-600 transition-colors">
                                     <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                     </svg>
                                     <span class="text-gray-600">100+ Clienți mulțumiți</span>
                                 </a>
-                                <a href="/php-light/pages/certificari.php" class="flex items-center space-x-2 hover:text-blue-600 transition-colors">
+                                <a href="<?php echo BASE_URL; ?>certificari" class="flex items-center space-x-2 hover:text-blue-600 transition-colors">
                                     <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                     </svg>
                                     <span class="text-gray-600">Expertiză certificată</span>
                                 </a>
-                                <a href="/php-light/pages/suport.php" class="flex items-center space-x-2 hover:text-blue-600 transition-colors">
+                                <a href="<?php echo BASE_URL; ?>suport" class="flex items-center space-x-2 hover:text-blue-600 transition-colors">
                                     <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                     </svg>
@@ -101,7 +102,7 @@ require_once 'components/footer.php';
                     <!-- Right Column - Image -->
                     <div class="relative">
                         <div class="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl transform rotate-6 scale-105 opacity-10"></div>
-                        <img src="/php-light/assets/images/marketing-agency-hero-image-acasa.jpg"
+                        <img src="<?php echo BASE_URL; ?>assets/images/marketing-agency-hero-image-acasa.jpg"
                              alt="Agenție Marketing Digital București"
                              class="relative rounded-2xl shadow-2xl object-cover w-full h-[600px]">
                         <!-- Floating Elements -->
@@ -125,27 +126,27 @@ require_once 'components/footer.php';
         <section class="py-8 bg-gray-50 border-y border-gray-100">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex flex-wrap justify-center gap-3 text-sm">
-                    <a href="/php-light/servicii/marketing-digital-bucuresti" 
+                    <a href="<?php echo BASE_URL; ?>servicii/marketing-digital-bucuresti" 
                        class="px-4 py-2 rounded-full bg-white text-gray-600 hover:text-blue-600 hover:shadow-md transition duration-300 border border-gray-200">
                         Agentie Marketing Bucuresti
                     </a>
-                    <a href="/php-light/servicii/seo-bucuresti" 
+                    <a href="<?php echo BASE_URL; ?>servicii/seo-bucuresti" 
                        class="px-4 py-2 rounded-full bg-white text-gray-600 hover:text-blue-600 hover:shadow-md transition duration-300 border border-gray-200">
                         Agentie SEO Bucuresti
                     </a>
-                    <a href="/php-light/servicii/dezvoltare-website-bucuresti" 
+                    <a href="<?php echo BASE_URL; ?>servicii/dezvoltare-website-bucuresti" 
                        class="px-4 py-2 rounded-full bg-white text-gray-600 hover:text-blue-600 hover:shadow-md transition duration-300 border border-gray-200">
                         Dezvoltare Website Bucuresti
                     </a>
-                    <a href="/php-light/servicii/email-marketing-bucuresti" 
+                    <a href="<?php echo BASE_URL; ?>servicii/email-marketing-bucuresti" 
                        class="px-4 py-2 rounded-full bg-white text-gray-600 hover:text-blue-600 hover:shadow-md transition duration-300 border border-gray-200">
                         Email Marketing Bucuresti
                     </a>
-                    <a href="/php-light/servicii/servicii-marketing-bucuresti" 
+                    <a href="<?php echo BASE_URL; ?>servicii/servicii-marketing-bucuresti" 
                        class="px-4 py-2 rounded-full bg-white text-gray-600 hover:text-blue-600 hover:shadow-md transition duration-300 border border-gray-200">
                         Servicii Marketing Bucuresti
                     </a>
-                    <a href="/php-light/servicii/pr-bucuresti" 
+                    <a href="<?php echo BASE_URL; ?>servicii/pr-bucuresti" 
                        class="px-4 py-2 rounded-full bg-white text-gray-600 hover:text-blue-600 hover:shadow-md transition duration-300 border border-gray-200">
                         PR Bucuresti
                     </a>
@@ -168,7 +169,7 @@ require_once 'components/footer.php';
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <!-- Google Ads -->
                     <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
-                        <a href="/php-light/pages/servicii/google-ads.php" class="block">
+                        <a href="<?php echo BASE_URL; ?>servicii/google-ads" class="block">
                             <div class="p-8">
                                 <div class="text-blue-600 mb-4">
                                     <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -194,71 +195,19 @@ require_once 'components/footer.php';
 
                     <!-- SEO -->
                     <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
-                        <a href="/php-light/pages/servicii/seo.php" class="block">
+                        <a href="<?php echo BASE_URL; ?>servicii/seo" class="block">
                             <div class="p-8">
                                 <div class="text-blue-600 mb-4">
                                     <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                                     </svg>
                                 </div>
-                                <h3 class="text-xl font-semibold text-gray-900 mb-2">Optimizare SEO</h3>
+                                <h3 class="text-xl font-semibold text-gray-900 mb-2">SEO</h3>
                                 <ul class="text-gray-600 space-y-2">
-                                    <li>• Audit SEO</li>
                                     <li>• Optimizare On-Page</li>
                                     <li>• Link Building</li>
                                     <li>• Content Marketing</li>
-                                </ul>
-                                <div class="mt-4 flex items-center text-blue-600">
-                                    <span class="text-sm font-medium">Află mai multe</span>
-                                    <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                                    </svg>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <!-- Email Marketing -->
-                    <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
-                        <a href="/php-light/pages/servicii/email-marketing.php" class="block">
-                            <div class="p-8">
-                                <div class="text-blue-600 mb-4">
-                                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                                    </svg>
-                                </div>
-                                <h3 class="text-xl font-semibold text-gray-900 mb-2">Email Marketing</h3>
-                                <ul class="text-gray-600 space-y-2">
-                                    <li>• Automatizări Email</li>
-                                    <li>• Newsletter Marketing</li>
-                                    <li>• Campanii Personalizate</li>
-                                    <li>• A/B Testing</li>
-                                </ul>
-                                <div class="mt-4 flex items-center text-blue-600">
-                                    <span class="text-sm font-medium">Află mai multe</span>
-                                    <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                                    </svg>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <!-- Social Media -->
-                    <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
-                        <a href="/php-light/pages/servicii/social-media.php" class="block">
-                            <div class="p-8">
-                                <div class="text-blue-600 mb-4">
-                                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
-                                    </svg>
-                                </div>
-                                <h3 class="text-xl font-semibold text-gray-900 mb-2">Social Media</h3>
-                                <ul class="text-gray-600 space-y-2">
-                                    <li>• Facebook Ads</li>
-                                    <li>• Instagram Marketing</li>
-                                    <li>• LinkedIn Ads</li>
-                                    <li>• Content Creation</li>
+                                    <li>• Audit SEO</li>
                                 </ul>
                                 <div class="mt-4 flex items-center text-blue-600">
                                     <span class="text-sm font-medium">Află mai multe</span>
@@ -272,7 +221,7 @@ require_once 'components/footer.php';
 
                     <!-- Web Development -->
                     <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
-                        <a href="/php-light/pages/servicii/web-development.php" class="block">
+                        <a href="<?php echo BASE_URL; ?>servicii/web-development" class="block">
                             <div class="p-8">
                                 <div class="text-blue-600 mb-4">
                                     <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -284,33 +233,7 @@ require_once 'components/footer.php';
                                     <li>• Website-uri Corporate</li>
                                     <li>• Magazine Online</li>
                                     <li>• Landing Pages</li>
-                                    <li>• Website Maintenance</li>
-                                </ul>
-                                <div class="mt-4 flex items-center text-blue-600">
-                                    <span class="text-sm font-medium">Află mai multe</span>
-                                    <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                                    </svg>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <!-- Analytics & Reporting -->
-                    <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
-                        <a href="/php-light/pages/servicii/analytics.php" class="block">
-                            <div class="p-8">
-                                <div class="text-blue-600 mb-4">
-                                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                                    </svg>
-                                </div>
-                                <h3 class="text-xl font-semibold text-gray-900 mb-2">Analytics & Reporting</h3>
-                                <ul class="text-gray-600 space-y-2">
-                                    <li>• Google Analytics</li>
-                                    <li>• Rapoarte Personalizate</li>
-                                    <li>• Analiza Competiției</li>
-                                    <li>• Optimizare Conversii</li>
+                                    <li>• Web Apps</li>
                                 </ul>
                                 <div class="mt-4 flex items-center text-blue-600">
                                     <span class="text-sm font-medium">Află mai multe</span>
