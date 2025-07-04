@@ -6,7 +6,7 @@ RewriteRule ^sitemap\.xml$ sitemap.php [L]
 
 # Remove .php extension
 RewriteCond %{REQUEST_FILENAME} !-d
-# RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php [L]
 
 # Custom error pages
