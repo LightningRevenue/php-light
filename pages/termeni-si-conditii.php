@@ -7,7 +7,7 @@ renderNavbar();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Termeni și Condiții | LightningRevenue</title>
+    <title>Termeni și Condiții</title>
     <meta name="description" content="Termeni și condiții pentru utilizarea serviciilor LightningRevenue. Informații legale despre drepturile și obligațiile utilizatorilor și ale companiei.">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>

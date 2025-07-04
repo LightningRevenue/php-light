@@ -9,11 +9,11 @@ require_once 'components/footer.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lightning Revenue | Agenție Marketing Digital București | SEO & Google Ads</title>
+    <title>Agenție Marketing Digital București | SEO & Google Ads</title>
     
     <!-- Meta Tags -->
     <meta name="description" content="Agenție de marketing digital din București specializată în SEO, Google Ads, și dezvoltare web. Creștem afacerea ta online cu strategii personalizate și rezultate măsurabile.">
-    <meta name="keywords" content="agenție marketing digital, marketing online bucurești, google ads, seo, dezvoltare website, email marketing">
+    <meta name="keywords" content="agenție marketing digital, marketing online bucurești, google ads, seo, dezvoltare website, email marketing, ppc, agentie pay-per-click, agentie PPC">
     <meta name="author" content="Lightning Revenue">
     <meta name="robots" content="index, follow">
     

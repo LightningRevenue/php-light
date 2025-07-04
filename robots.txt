@@ -1,0 +1,45 @@
+# www.robotstxt.org/
+
+User-agent: *
+Allow: /
+Allow: /sitemap.php
+Allow: /assets/images/
+Allow: /pages/
+
+# Directories
+Disallow: /config/
+Disallow: /components/
+
+# Files
+Disallow: /.htaccess
+Disallow: /error_log
+Disallow: /*.sql$
+Disallow: /*.log$
+Disallow: /*.php.txt$
+Disallow: /*.php~$
+Disallow: /*~$
+
+# Main Pages
+Allow: /despre-noi
+Allow: /contact
+Allow: /resurse-tehnice
+
+# Service Pages
+Allow: /promovare-google-ads
+Allow: /promovare-google-ads-promovare-online
+Allow: /dezvoltare-siteuri-bucuresti
+Allow: /email-marketing-bucuresti
+Allow: /seo-optimizare-site
+Allow: /promovare-social-media
+Allow: /agentie-marketing-online-bucuresti
+
+# Legal Pages
+Allow: /termeni-si-conditii
+Allow: /politica-confidentialitate
+Allow: /politica-cookie
+
+# Error Pages
+Allow: /404
+
+# Sitemap
+Sitemap: https://php-light.com/php-light/sitemap.php 

@@ -7,7 +7,7 @@ renderNavbar();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Despre Noi | LightningRevenue</title>
+    <title>Agentie Marketing Digital Bucuresti</title>
     <meta name="description" content="Află mai multe despre LightningRevenue - expertiza noastră în dezvoltare web, marketing digital și creșterea afacerilor online.">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>

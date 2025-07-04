@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recenzii și Testimoniale | LightningRevenue - Agenție Marketing Online</title>
+    <title>Recenzii și Testimoniale | Agenție Marketing Online</title>
     <meta name="description" content="Descoperă experiențele clienților noștri cu serviciile de marketing digital. Recenzii și testimoniale reale de la afaceri care au crescut cu ajutorul nostru.">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>

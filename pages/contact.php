@@ -8,7 +8,7 @@ require_once '../components/footer.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - LightningRevenue | Agenție Marketing Digital București</title>
+    <title>Contact | Agenție Marketing Digital București</title>
     <meta name="description" content="Contactează-ne pentru servicii profesionale de marketing digital, dezvoltare web și promovare online în București. Răspundem prompt la toate solicitările.">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>

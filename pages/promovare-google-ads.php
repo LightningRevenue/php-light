@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Promovare Google Ads și Promovare Online în București | LightningRevenue</title>
+    <title>Promovare Google Ads și Promovare PPC</title>
     <meta name="description" content="Servicii profesionale de promovare Google Ads și marketing online în București. Creștem afacerea ta prin campanii optimizate și strategii personalizate.">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>

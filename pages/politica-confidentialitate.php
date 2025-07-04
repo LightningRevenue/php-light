@@ -7,7 +7,7 @@ renderNavbar();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Politica de Confidențialitate | LightningRevenue</title>
+    <title>Politica de Confidențialitate</title>
     <meta name="description" content="Politica de confidențialitate LightningRevenue - Informații despre modul în care colectăm, procesăm și protejăm datele dumneavoastră personale.">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
