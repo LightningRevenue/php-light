@@ -50,6 +50,9 @@ renderNavbar();
                                     <a href="#domenii" class="text-blue-600 hover:text-blue-800 block py-1">Domenii de Expertiză</a>
                                 </li>
                                 <li>
+                                    <a href="#articole" class="text-blue-600 hover:text-blue-800 block py-1">Articole și Ghiduri</a>
+                                </li>
+                                <li>
                                     <a href="#contributie" class="text-blue-600 hover:text-blue-800 block py-1">Cum să Contribui</a>
                                 </li>
                             </ul>
@@ -240,6 +243,43 @@ renderNavbar();
                                         <li>• Monitoring și logging</li>
                                     </ul>
                                 </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Articole și Ghiduri Section -->
+                    <section id="articole" class="mb-16">
+                        <div class="bg-white shadow rounded-lg p-6">
+                            <h2 class="text-2xl font-bold text-gray-900 mb-6">Articole și Ghiduri</h2>
+                            
+                            <div class="space-y-8">
+                                <!-- SEO Article -->
+                                <article class="border-b pb-8">
+                                    <h3 class="text-xl font-semibold text-gray-900 mb-4">
+                                        <a href="<?php echo BASE_URL; ?>seo-optimizare-site" class="hover:text-blue-600 transition-colors">
+                                            Ghid Complet SEO: De la Bazele Optimizării la Strategii Avansate
+                                        </a>
+                                    </h3>
+                                    <p class="text-gray-600 mb-4">
+                                        Un ghid detaliat despre optimizarea pentru motoarele de căutare (SEO), care acoperă toate aspectele esențiale: 
+                                        de la cercetarea cuvintelor cheie și optimizarea on-page, până la strategii avansate de content marketing și 
+                                        tehnici de creștere a autorității domeniului.
+                                    </p>
+                                    <div class="flex flex-wrap gap-2">
+                                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">SEO</span>
+                                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Marketing Digital</span>
+                                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Optimizare Website</span>
+                                    </div>
+                                    <div class="mt-4">
+                                        <a href="<?php echo BASE_URL; ?>seo-optimizare-site" 
+                                           class="inline-flex items-center text-blue-600 hover:text-blue-800">
+                                            Citește articolul complet
+                                            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </article>
                             </div>
                         </div>
                     </section>

@@ -55,3 +55,4 @@ RewriteRule ^agentie-marketing-online-bucuresti/?$ pages/agentie-marketing-onlin
 RewriteRule ^promovare-google-ads/?$ pages/promovare-google-ads.php [L,NC]
 RewriteRule ^promovare-social-media/?$ pages/promovare-social-media.php [L,NC]
 RewriteRule ^recenzii/?$ pages/recenzii.php [L,NC]
+RewriteRule ^seo-optimizare-site/?$ pages/seo-optimizare-site.php [L,NC]

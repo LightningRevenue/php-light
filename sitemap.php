@@ -35,11 +35,27 @@ $pages = [
         "priority" => "0.9",
         "changefreq" => "weekly"
     ],
+    "promovare-google-ads" => [
+        "priority" => "0.9",
+        "changefreq" => "weekly"
+    ],
     "dezvoltare-siteuri-bucuresti" => [
         "priority" => "0.9",
         "changefreq" => "weekly"
     ],
     "email-marketing-bucuresti" => [
+        "priority" => "0.9",
+        "changefreq" => "weekly"
+    ],
+    "seo-optimizare-site" => [
+        "priority" => "0.9",
+        "changefreq" => "weekly"
+    ],
+    "agentie-marketing-online-bucuresti" => [
+        "priority" => "0.9",
+        "changefreq" => "weekly"
+    ],
+    "promovare-social-media" => [
         "priority" => "0.9",
         "changefreq" => "weekly"
     ],
