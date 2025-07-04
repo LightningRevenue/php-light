@@ -59,6 +59,18 @@ $pages = [
         "priority" => "0.9",
         "changefreq" => "weekly"
     ],
+    "dezvoltare-magazin-online" => [
+        "priority" => "0.9",
+        "changefreq" => "weekly"
+    ],
+    "cariere" => [
+        "priority" => "0.9",
+        "changefreq" => "weekly"
+    ],
+    "pozitii/co-founder" => [
+        "priority" => "0.9",
+        "changefreq" => "weekly"
+    ]
     
     // Pagini legale și resurse
     "termeni-si-conditii" => [
