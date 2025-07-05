@@ -60,3 +60,6 @@ RewriteRule ^dezvoltare-magazin-online/?$ pages/dezvoltare-magazin-online.php [L
 RewriteRule ^portofoliu/?$ pages/portofoliu.php [L,NC]
 RewriteRule ^cariere/?$ pages/cariere.php [L,NC]
 RewriteRule ^pozitii/co-founder/?$ pages/pozitii/co-founder.php [L,NC]
+RewriteRule ^strategii-seo/?$ pages/strategii-seo.php [L,NC]
+RewriteRule ^strategii-marketing/?$ pages/strategii-marketing.php [L,NC]
+RewriteRule ^servicii-seo/?$ pages/servicii-seo.php [L,NC]

@@ -280,6 +280,58 @@ renderNavbar();
                                         </a>
                                     </div>
                                 </article>
+
+                                <article class="border-b pb-8">
+                                    <h3 class="text-xl font-semibold text-gray-900 mb-4">
+                                        <a href="<?php echo BASE_URL; ?>strategii-seo" class="hover:text-blue-600 transition-colors">
+                                            Strategii SEO pentru Creșterea Vizibilității Online
+                                        </a>
+                                    </h3>
+                                    <p class="text-gray-600 mb-4">
+                                    În era digitală, prezența online puternică este esențială pentru succesul oricărei afaceri. La Lightning Revenue, ne concentrăm pe 
+                                    implementarea celor mai eficiente strategii SEO pentru a ajuta afacerile să se poziționeze mai bine în rezultatele căutărilor.
+                                    </p>
+                                    <div class="flex flex-wrap gap-2">
+                                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">SEO</span>
+                                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Marketing Digital</span>
+                                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Optimizare Website</span>
+                                    </div>
+                                    <div class="mt-4">
+                                        <a href="<?php echo BASE_URL; ?>strategii-seo" 
+                                           class="inline-flex items-center text-blue-600 hover:text-blue-800">
+                                            Citește articolul complet
+                                            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </article>
+
+                                <article class="border-b pb-8">
+                                    <h3 class="text-xl font-semibold text-gray-900 mb-4">
+                                        <a href="<?php echo BASE_URL; ?>strategii-marketing" class="hover:text-blue-600 transition-colors">
+                                            Strategii de Marketing Digital Complete pentru Afaceri din România
+                                        </a>
+                                    </h3>
+                                    <p class="text-gray-600 mb-4">
+                                    Descoperă cum o agenție de marketing digital cu experiență în piața din România 
+                                    te poate ajuta să atragi clienți relevanți prin servicii SEO, campanii PPC eficiente și strategii de conținut personalizate.
+                                    </p>
+                                    <div class="flex flex-wrap gap-2">
+                                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Social Media Marketing</span>
+                                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Marketing Digital</span>
+                                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Agentie Email Marketing Romania</span>
+                                    </div>
+                                    <div class="mt-4">
+                                        <a href="<?php echo BASE_URL; ?>strategii-seo" 
+                                           class="inline-flex items-center text-blue-600 hover:text-blue-800">
+                                            Citește articolul complet
+                                            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </article>
                             </div>
                         </div>
                     </section>

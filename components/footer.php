@@ -70,6 +70,11 @@ function renderFooter() {
                                 Dezvoltare Magazin Online Bucuresti
                             </a>
                         </li>
+                        <li>
+                            <a href="<?php echo BASE_URL; ?>servicii-seo" class="text-gray-400 hover:text-white transition duration-150">
+                                Implementare SEO Bucuresti
+                            </a>
+                        </li>
                     </ul>
                 </div>
 
@@ -95,6 +100,28 @@ function renderFooter() {
                         <li>
                             <a href="<?php echo BASE_URL; ?>contact" class="text-gray-400 hover:text-white transition duration-150">
                                 Contacteaza-ne
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Blog & Resources Pages -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Articole Recente </h3>
+                    <ul class="space-y-2">
+                        <li>
+                            <a href="<?php echo BASE_URL; ?>seo-optimizare-site" class="text-gray-400 hover:text-white transition duration-150">
+                                > Ghid Complet SEO: De la Bazele Optimizării la Strategii Avansate
+                            </a>
+                        </li>
+                        <li>
+                            <a href="<?php echo BASE_URL; ?>strategii-seo" class="text-gray-400 hover:text-white transition duration-150">
+                                > Strategii SEO pentru Creșterea Vizibilității Online
+                            </a>
+                        </li>
+                        <li>
+                            <a href="<?php echo BASE_URL; ?>strategii-marketing" class="text-gray-400 hover:text-white transition duration-150">
+                                > Strategii de Marketing Digital Complete pentru Afaceri din România
                             </a>
                         </li>
                     </ul>

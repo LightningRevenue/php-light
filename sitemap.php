@@ -47,6 +47,10 @@ $pages = [
         "priority" => "0.9",
         "changefreq" => "weekly"
     ],
+    "servicii-seo" => [
+        "priority" => "0.9",
+        "changefreq" => "weekly"
+    ],
     "seo-optimizare-site" => [
         "priority" => "0.9",
         "changefreq" => "weekly"
@@ -79,6 +83,10 @@ $pages = [
         "priority" => "0.9",
         "changefreq" => "weekly"
     ],
+    "strategii-marketing" => [
+        "priority" => "0.7",
+        "changefreq" => "weekly"
+    ],
     
     // Pagini legale și resurse
     "termeni-si-conditii" => [
@@ -94,6 +102,10 @@ $pages = [
         "changefreq" => "yearly"
     ],
     "resurse-tehnice" => [
+        "priority" => "0.7",
+        "changefreq" => "monthly"
+    ],
+    "strategii-seo" => [
         "priority" => "0.7",
         "changefreq" => "monthly"
     ]
