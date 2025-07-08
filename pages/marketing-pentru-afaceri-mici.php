@@ -28,19 +28,19 @@ require_once '../components/footer.php';
     <meta property="og:url" content="<?php echo BASE_URL; ?>marketing-pentru-afaceri-mici">
     <meta property="og:title" content="Marketing pentru Afaceri Mici ⭐ Servicii Complete pentru IMM-uri">
     <meta property="og:description" content="Creștem afacerea ta prin strategii de marketing digital personalizate pentru IMM-uri. Pachete accesibile, rezultate garantate.">
-    <meta property="og:image" content="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
+    <meta property="og:image" content="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.webp">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="<?php echo BASE_URL; ?>marketing-pentru-afaceri-mici">
     <meta property="twitter:title" content="Marketing pentru Afaceri Mici ⭐ Servicii Complete pentru IMM-uri">
     <meta property="twitter:description" content="Creștem afacerea ta prin strategii de marketing digital personalizate pentru IMM-uri. Pachete accesibile, rezultate garantate.">
-    <meta property="twitter:image" content="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
+    <meta property="twitter:image" content="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.webp">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.webp">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.webp">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.webp">
     
     <!-- Canonical URL -->
     <link rel="canonical" href="<?php echo BASE_URL; ?>marketing-pentru-afaceri-mici">
