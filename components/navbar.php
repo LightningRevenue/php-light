@@ -41,7 +41,15 @@ function renderNavbar($activePage = '') {
                     <!-- Logo -->
                     <div class="flex-shrink-0 flex items-center">
                         <a href="<?php echo BASE_URL; ?>" class="flex items-center">
-                            <img src="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png" alt="Lightning Revenue" class="h-10 w-auto">
+                            <img src="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.webp"
+                                 srcset="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.webp 1x,
+                                         <?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.webp 2x"
+                                 alt="Lightning Revenue"
+                                 class="h-10 w-auto"
+                                 width="auto"
+                                 height="40"
+                                 loading="eager"
+                                 fetchpriority="high">
                         </a>
                     </div>
                 </div>

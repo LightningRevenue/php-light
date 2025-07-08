@@ -156,7 +156,7 @@ require_once '../components/footer.php';
                     <!-- Right Column - Image -->
                     <div class="relative">
                         <div class="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl transform rotate-6 scale-105 opacity-10"></div>
-                        <img src="<?php echo BASE_URL; ?>assets/images/marketing-agency-hero-image-acasa.jpg"
+                        <img src="<?php echo BASE_URL; ?>assets/images/agentie-marketing-bucuresti.webp"
                              alt="Marketing pentru Afaceri Mici"
                              class="relative rounded-2xl shadow-2xl object-cover w-full h-[600px]">
                         <!-- Floating Elements -->

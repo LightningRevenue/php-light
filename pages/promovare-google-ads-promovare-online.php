@@ -179,7 +179,7 @@ renderNavbar('promovare');
                 </div>
                 <div class="relative">
                     <div class="absolute inset-0 bg-blue-100 rounded-3xl transform rotate-3"></div>
-                    <img src="<?php echo BASE_URL; ?>assets/images/agentie-google-ads.jpg" alt="Google Ads Dashboard" class="relative rounded-2xl shadow-lg w-full h-auto z-10">
+                    <img src="<?php echo BASE_URL; ?>assets/images/agentie-google-ads.webp" alt="Google Ads Dashboard" class="relative rounded-2xl shadow-lg w-full h-auto z-10">
                 </div>
             </div>
         </div>

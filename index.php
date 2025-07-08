@@ -9,6 +9,21 @@ require_once 'components/footer.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add bfcache optimization -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <script>
+        // Restore scroll position when using bfcache
+        if (window.performance && window.performance.navigation.type === 2) {
+            window.addEventListener('pageshow', function(event) {
+                if (event.persisted) {
+                    // When using bfcache, force a reload of dynamic content
+                    window.location.reload();
+                }
+            });
+        }
+    </script>
     <title>Agenție Marketing Digital București | SEO & Google Ads</title>
     
     <!-- Analytics -->
@@ -162,7 +177,7 @@ require_once 'components/footer.php';
                     <!-- Right Column - Image -->
                     <div class="relative">
                         <div class="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl transform rotate-6 scale-105 opacity-10"></div>
-                        <img src="<?php echo BASE_URL; ?>assets/images/marketing-agency-hero-image-acasa.jpg"
+                        <img src="<?php echo BASE_URL; ?>assets/images/agentie-marketing-bucuresti.webp"
                              alt="Agenție Marketing Digital București"
                              class="relative rounded-2xl shadow-2xl object-cover w-full h-[600px]">
                         <!-- Floating Elements -->
