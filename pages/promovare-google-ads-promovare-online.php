@@ -1,11 +1,114 @@
+<?php
+require_once '../config/config.php';
+?>
+
 <!DOCTYPE html>
 <html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Promovare Google Ads și Promovare Online în București | LightningRevenue</title>
-    <meta name="description" content="Servicii profesionale de promovare Google Ads și marketing online în București. Creștem afacerea ta prin campanii optimizate și strategii personalizate.">
+    <title>Servicii Google Ads ⭐ Promovare Online</title>
+    
+    <!-- Meta Tags -->
+    <meta name="description" content="Servicii Google Ads București ⭐ Promovare Online Profesională ✓ Campanii PPC Optimizate ✓ Rezultate Rapide ✓ ROI Măsurabil ✓ Expertiză Google Ads">
+    <meta name="keywords" content="google ads bucuresti, promovare online, campanii PPC, agentie google ads, promovare google ads, servicii google adwords, marketing PPC">
+    <meta name="author" content="Lightning Revenue">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="<?php echo BASE_URL; ?>promovare-google-ads-promovare-online">
+    <meta property="og:title" content="Servicii Google Ads ⭐ Promovare Online">
+    <meta property="og:description" content="Servicii complete de Google Ads și promovare online în București. Creștem vânzările și vizibilitatea afacerii tale prin campanii PPC optimizate și strategii personalizate.">
+    <meta property="og:image" content="<?php echo BASE_URL; ?>assets/images/promovare-google-ads.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="<?php echo BASE_URL; ?>promovare-google-ads-promovare-online">
+    <meta property="twitter:title" content="Servicii Google Ads ⭐ Promovare Online">
+    <meta property="twitter:description" content="Servicii complete de Google Ads și promovare online în București. Creștem vânzările și vizibilitatea afacerii tale prin campanii PPC optimizate și strategii personalizate.">
+    <meta property="twitter:image" content="<?php echo BASE_URL; ?>assets/images/promovare-google-ads.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="<?php echo BASE_URL; ?>promovare-google-ads-promovare-online">
+
+    <!-- Styles -->
     <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Servicii Google Ads și Promovare Online",
+        "provider": {
+            "@type": "Organization",
+            "name": "Lightning Revenue",
+            "url": "<?php echo BASE_URL; ?>"
+        },
+        "description": "Servicii profesionale de Google Ads și promovare online în București. Campanii PPC optimizate, strategii personalizate și rezultate măsurabile pentru afacerea ta.",
+        "areaServed": {
+            "@type": "City",
+            "name": "București"
+        },
+        "serviceType": "Google Ads și PPC",
+        "offers": {
+            "@type": "Offer",
+            "priceCurrency": "RON",
+            "priceSpecification": {
+                "@type": "UnitPriceSpecification",
+                "priceType": "https://schema.org/InvoicePrice",
+                "price": "Personalizat în funcție de buget și obiective"
+            }
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Servicii Google Ads",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Campanii Google Search"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Campanii Google Display"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Remarketing și Dynamic Ads"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Optimizare și Monitorizare PPC"
+                    }
+                }
+            ]
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "100",
+            "bestRating": "5",
+            "worstRating": "1"
+        }
+    }
+    </script>
 </head>
 <body>
 <?php 
@@ -358,77 +461,107 @@ renderNavbar('promovare');
     <section class="py-16 bg-white">
                     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
                         <div class="text-center mb-12">
-                            <h2 class="text-3xl font-bold text-gray-900 mb-4">Solicită o Analiză Gratuită</h2>
-                            <p class="text-xl text-gray-600">Completează formularul și te vom contacta în cel mai scurt timp</p>
+                            <h2 class="text-3xl font-bold text-gray-900 mb-4">Vrei să Crești Afacerea Ta?</h2>
+                            <p class="text-xl text-gray-600">Completează formularul și te contactăm în maxim 24 de ore</p>
                         </div>
 
-                        <form action="<?php echo BASE_URL; ?>submit-form.php" method="POST" class="space-y-6 bg-white rounded-xl shadow-sm p-8 border border-gray-100">
+                        <form id="contactForm" action="<?php echo BASE_URL; ?>process-form.php" method="POST" class="space-y-6 bg-white rounded-xl shadow-sm p-8 border border-gray-100">
                             <div class="grid md:grid-cols-2 gap-6">
-                                <!-- Nume -->
                                 <div>
-                                    <label for="nume" class="block text-sm font-medium text-gray-700 mb-1">Nume și Prenume *</label>
+                                    <label for="nume" class="block text-sm font-medium text-gray-700 mb-1">Nume</label>
                                     <input type="text" name="nume" id="nume" required
-                                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
                                 </div>
-
-                                <!-- Email -->
                                 <div>
-                                    <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email *</label>
+                                    <label for="prenume" class="block text-sm font-medium text-gray-700 mb-1">Prenume</label>
+                                    <input type="text" name="prenume" id="prenume" required
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                                </div>
+                            </div>
+                            <div class="grid md:grid-cols-2 gap-6">
+                                <div>
+                                    <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
                                     <input type="email" name="email" id="email" required
-                                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
                                 </div>
-
-                                <!-- Telefon -->
                                 <div>
-                                    <label for="telefon" class="block text-sm font-medium text-gray-700 mb-1">Telefon *</label>
+                                    <label for="telefon" class="block text-sm font-medium text-gray-700 mb-1">Număr de Telefon</label>
                                     <input type="tel" name="telefon" id="telefon" required
-                                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
-                                </div>
-
-                                <!-- Website -->
-                                <div>
-                                    <label for="website" class="block text-sm font-medium text-gray-700 mb-1">Website</label>
-                                    <input type="url" name="website" id="website"
-                                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
                                 </div>
                             </div>
-
-                            <!-- Buget -->
                             <div>
-                                <label for="buget" class="block text-sm font-medium text-gray-700 mb-1">Buget Lunar Estimat *</label>
-                                <select name="buget" id="buget" required
-                                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
-                                    <option value="">Selectează bugetul</option>
-                                    <option value="500-1000">500€ - 1.000€</option>
-                                    <option value="1000-2000">1.000€ - 2.000€</option>
-                                    <option value="2000-5000">2.000€ - 5.000€</option>
-                                    <option value="5000+">5.000€ +</option>
-                                </select>
-                            </div>
-
-                            <!-- Mesaj -->
-                            <div>
-                                <label for="mesaj" class="block text-sm font-medium text-gray-700 mb-1">Mesaj</label>
-                                <textarea name="mesaj" id="mesaj" rows="4"
-                                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                                <label for="mesaj" class="block text-sm font-medium text-gray-700 mb-1">Mesaj Scurt</label>
+                                <textarea name="mesaj" id="mesaj" rows="3" 
+                                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                                     placeholder="Spune-ne mai multe despre obiectivele tale..."></textarea>
                             </div>
-
-                            <!-- Submit Button -->
-                            <div class="flex justify-center">
-                                <button type="submit"
-                                    class="px-8 py-4 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition duration-300 flex items-center">
-                                    Trimite Solicitarea
+                            <div id="formMessage" class="text-center hidden">
+                                <p class="text-green-600 font-medium"></p>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" 
+                                    class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition duration-300">
+                                    <span class="submit-text">Vreau să Cresc Online</span>
                                     <svg class="ml-2 -mr-1 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+                                    </svg>
+                                    <svg class="animate-spin ml-2 -mr-1 w-5 h-5 hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                                     </svg>
                                 </button>
                             </div>
-
-                            <p class="text-sm text-gray-500 text-center mt-4">
-                                Câmpurile marcate cu * sunt obligatorii
-                            </p>
                         </form>
+
+                        <script>
+                        document.getElementById('contactForm').addEventListener('submit', async function(e) {
+                            e.preventDefault();
+                            
+                            const form = this;
+                            const formMessage = document.getElementById('formMessage');
+                            const messageText = formMessage.querySelector('p');
+                            const submitButton = form.querySelector('button[type="submit"]');
+                            const submitText = submitButton.querySelector('.submit-text');
+                            const loadingSpinner = submitButton.querySelector('.animate-spin');
+                            
+                            // Disable form and show loading state
+                            submitButton.disabled = true;
+                            submitText.classList.add('opacity-50');
+                            loadingSpinner.classList.remove('hidden');
+                            
+                            try {
+                                const formData = new FormData(form);
+                                
+                                const response = await fetch(form.action, {
+                                    method: 'POST',
+                                    body: formData
+                                });
+
+                                const result = await response.json();
+
+                                // Show message
+                                messageText.textContent = result.message;
+                                messageText.className = result.success ? 'text-green-600 font-medium' : 'text-red-600 font-medium';
+                                formMessage.classList.remove('hidden');
+                                
+                                // If successful, reset form
+                                if (result.success) {
+                                    form.reset();
+                                }
+                            } catch (error) {
+                                // Show error message
+                                messageText.textContent = 'A apărut o eroare. Te rugăm să încerci din nou sau să ne contactezi telefonic.';
+                                messageText.className = 'text-red-600 font-medium';
+                                formMessage.classList.remove('hidden');
+                            } finally {
+                                // Re-enable form and hide loading state
+                                submitButton.disabled = false;
+                                submitText.classList.remove('opacity-50');
+                                loadingSpinner.classList.add('hidden');
+                            }
+                        });
+                        </script>
                     </div>
                 </section>
 

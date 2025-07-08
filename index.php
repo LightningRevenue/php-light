@@ -522,7 +522,7 @@ require_once 'components/footer.php';
                     <p class="text-center text-gray-600 mb-8">
                         Completează formularul și te contactăm în maxim 24 de ore
                     </p>
-                    <form action="<?php echo BASE_URL; ?>process-form.php" method="POST" class="space-y-6">
+                    <form id="contactForm" action="<?php echo BASE_URL; ?>process-form.php" method="POST" class="space-y-6">
                         <div class="grid md:grid-cols-2 gap-6">
                             <div>
                                 <label for="nume" class="block text-sm font-medium text-gray-700 mb-1">Nume</label>
@@ -553,12 +553,19 @@ require_once 'components/footer.php';
                                 class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                                 placeholder="Spune-ne mai multe despre obiectivele tale..."></textarea>
                         </div>
+                        <div id="formMessage" class="text-center hidden">
+                            <p class="text-green-600 font-medium"></p>
+                        </div>
                         <div class="text-center">
                             <button type="submit" 
                                 class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition duration-300">
-                                Vreau să Cresc Online
+                                <span class="submit-text">Vreau să Cresc Online</span>
                                 <svg class="ml-2 -mr-1 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+                                </svg>
+                                <svg class="animate-spin ml-2 -mr-1 w-5 h-5 hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                                 </svg>
                             </button>
                         </div>
@@ -821,5 +828,54 @@ require_once 'components/footer.php';
     </main>
 
     <?php renderFooter(); ?>
+
+    <script>
+    document.getElementById('contactForm').addEventListener('submit', async function(e) {
+        e.preventDefault();
+        
+        const form = this;
+        const formMessage = document.getElementById('formMessage');
+        const messageText = formMessage.querySelector('p');
+        const submitButton = form.querySelector('button[type="submit"]');
+        const submitText = submitButton.querySelector('.submit-text');
+        const loadingSpinner = submitButton.querySelector('.animate-spin');
+        
+        // Disable form and show loading state
+        submitButton.disabled = true;
+        submitText.classList.add('opacity-50');
+        loadingSpinner.classList.remove('hidden');
+        
+        try {
+            const formData = new FormData(form);
+            
+            const response = await fetch(form.action, {
+                method: 'POST',
+                body: formData
+            });
+
+            const result = await response.json();
+
+            // Show message
+            messageText.textContent = result.message;
+            messageText.className = result.success ? 'text-green-600 font-medium' : 'text-red-600 font-medium';
+            formMessage.classList.remove('hidden');
+            
+            // If successful, reset form
+            if (result.success) {
+                form.reset();
+            }
+        } catch (error) {
+            // Show error message
+            messageText.textContent = 'A apărut o eroare. Te rugăm să încerci din nou sau să ne contactezi telefonic.';
+            messageText.className = 'text-red-600 font-medium';
+            formMessage.classList.remove('hidden');
+        } finally {
+            // Re-enable form and hide loading state
+            submitButton.disabled = false;
+            submitText.classList.remove('opacity-50');
+            loadingSpinner.classList.add('hidden');
+        }
+    });
+    </script>
 </body>
 </html> 

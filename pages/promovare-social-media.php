@@ -1,11 +1,164 @@
+<?php
+require_once '../config/config.php';
+?>
+
 <!DOCTYPE html>
 <html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Promovare Social Media si Social Media Management</title>
-    <meta name="description" content="Servicii profesionale de promovare Google Ads și marketing online în București. Creștem afacerea ta prin campanii optimizate și strategii personalizate.">
+    <title>Promovare Social Media Bucuresti ⭐ Marketing Facebook</title>
+    
+    <!-- Meta Tags -->
+    <meta name="description" content="Promovare Social Media București ⭐ Marketing Facebook & Instagram ✓ Creștere Organică ✓ Campanii Ads ✓ Conținut Viral ✓ Strategii Personalizate">
+    <meta name="keywords" content="promovare social media, marketing facebook, instagram marketing, tiktok ads, social media bucuresti, publicitate facebook, promovare instagram">
+    <meta name="author" content="Lightning Revenue">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="<?php echo BASE_URL; ?>promovare-social-media">
+    <meta property="og:title" content="Promovare Social Media Bucuresti ⭐ Marketing Facebook">
+    <meta property="og:description" content="Servicii complete de promovare pe social media. Creștem prezența brandului tău prin strategii personalizate de marketing pe Facebook, Instagram și TikTok.">
+    <meta property="og:image" content="<?php echo BASE_URL; ?>assets/images/promovare-social-media.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="<?php echo BASE_URL; ?>promovare-social-media">
+    <meta property="twitter:title" content="Promovare Social Media Bucuresti ⭐ Marketing Facebook">
+    <meta property="twitter:description" content="Servicii complete de promovare pe social media. Creștem prezența brandului tău prin strategii personalizate de marketing pe Facebook, Instagram și TikTok.">
+    <meta property="twitter:image" content="<?php echo BASE_URL; ?>assets/images/promovare-social-media.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="<?php echo BASE_URL; ?>promovare-social-media">
+
+    <!-- Styles -->
     <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Promovare Social Media București",
+        "provider": {
+            "@type": "Organization",
+            "name": "Lightning Revenue",
+            "url": "<?php echo BASE_URL; ?>"
+        },
+        "description": "Servicii profesionale de promovare pe social media. Strategii personalizate pentru Facebook, Instagram și TikTok, management conținut și campanii de advertising.",
+        "areaServed": {
+            "@type": "City",
+            "name": "București"
+        },
+        "serviceType": "Social Media Marketing",
+        "offers": {
+            "@type": "AggregateOffer",
+            "priceCurrency": "RON",
+            "offerCount": "3",
+            "offers": [
+                {
+                    "@type": "Offer",
+                    "name": "Pachet Start-up",
+                    "description": "Management social media pentru afaceri mici",
+                    "priceSpecification": {
+                        "@type": "UnitPriceSpecification",
+                        "priceType": "https://schema.org/InvoicePrice",
+                        "price": "De la 300€/lună"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Pachet Professional",
+                    "description": "Strategie completă social media și advertising",
+                    "priceSpecification": {
+                        "@type": "UnitPriceSpecification",
+                        "priceType": "https://schema.org/InvoicePrice",
+                        "price": "De la 500€/lună"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Pachet Enterprise",
+                    "description": "Soluții personalizate pentru branduri mari",
+                    "priceSpecification": {
+                        "@type": "UnitPriceSpecification",
+                        "priceType": "https://schema.org/InvoicePrice",
+                        "price": "De la 1000€/lună"
+                    }
+                }
+            ]
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Servicii Social Media",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Management Facebook"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Marketing Instagram"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Campanii TikTok"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Creație Conținut"
+                    }
+                }
+            ]
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "100",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "additionalProperty": [
+            {
+                "@type": "PropertyValue",
+                "name": "Platforme",
+                "value": "Facebook, Instagram, TikTok, LinkedIn"
+            },
+            {
+                "@type": "PropertyValue",
+                "name": "Servicii Incluse",
+                "value": "Management conținut, Advertising, Analiză și Raportare"
+            },
+            {
+                "@type": "PropertyValue",
+                "name": "Frecvență Postări",
+                "value": "Minimum 15 postări/lună"
+            },
+            {
+                "@type": "PropertyValue",
+                "name": "Suport",
+                "value": "Asistență dedicată și monitorizare 7 zile din 7"
+            }
+        ]
+    }
+    </script>
 </head>
 <body>
 <?php 

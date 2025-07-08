@@ -1,16 +1,143 @@
 <?php
-require_once(__DIR__ . '/../config/config.php');
-require_once(__DIR__ . '/../components/navbar.php');
-require_once(__DIR__ . '/../components/footer.php');
+require_once('../config/config.php');
+require_once('../components/navbar.php');
+require_once('../components/footer.php');
 ?>
 <!DOCTYPE html>
 <html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servicii SEO Profesionale | Optimizare SEO Site & Link Building</title>
-    <meta name="description" content="Servicii SEO complete pentru afaceri din România. Oferim optimizare SEO on-page, off-page, tehnică și strategii de link building pentru a domina rezultatele Google.">
+    <title>Servicii SEO București ⭐ Optimizare SEO Profesională</title>
+    
+    <!-- Meta Tags -->
+    <meta name="description" content="Servicii SEO București ⭐ Optimizare SEO Profesională ✓ Creștere Trafic Organic ✓ Poziționare Google ✓ Audit SEO ✓ Link Building">
+    <meta name="keywords" content="servicii seo bucuresti, optimizare seo, seo profesional, audit seo, link building, pozitionare google, optimizare website">
+    <meta name="author" content="Lightning Revenue">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="<?php echo BASE_URL; ?>servicii-seo">
+    <meta property="og:title" content="Servicii SEO București ⭐ Optimizare SEO Profesională">
+    <meta property="og:description" content="Servicii complete de optimizare SEO pentru afaceri. Creștem vizibilitatea și traficul organic al website-ului tău prin strategii SEO dovedite.">
+    <meta property="og:image" content="<?php echo BASE_URL; ?>assets/images/servicii-seo.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="<?php echo BASE_URL; ?>servicii-seo">
+    <meta property="twitter:title" content="Servicii SEO București ⭐ Optimizare SEO Profesională">
+    <meta property="twitter:description" content="Servicii complete de optimizare SEO pentru afaceri. Creștem vizibilitatea și traficul organic al website-ului tău prin strategii SEO dovedite.">
+    <meta property="twitter:image" content="<?php echo BASE_URL; ?>assets/images/servicii-seo.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="<?php echo BASE_URL; ?>servicii-seo">
+
+    <!-- Styles -->
     <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Servicii SEO București",
+        "provider": {
+            "@type": "Organization",
+            "name": "Lightning Revenue",
+            "url": "<?php echo BASE_URL; ?>"
+        },
+        "description": "Servicii profesionale de optimizare SEO pentru website-uri. Strategii personalizate de creștere a vizibilității în Google și generare de trafic organic.",
+        "areaServed": {
+            "@type": "City",
+            "name": "București"
+        },
+        "serviceType": "SEO Services",
+        "offers": {
+            "@type": "AggregateOffer",
+            "priceCurrency": "RON",
+            "offerCount": "3",
+            "offers": [
+                {
+                    "@type": "Offer",
+                    "name": "Pachet SEO Start-up",
+                    "description": "Optimizare SEO pentru afaceri mici",
+                    "priceSpecification": {
+                        "@type": "UnitPriceSpecification",
+                        "priceType": "https://schema.org/InvoicePrice",
+                        "price": "De la 300€/lună"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Pachet SEO Professional",
+                    "description": "Optimizare completă și link building",
+                    "priceSpecification": {
+                        "@type": "UnitPriceSpecification",
+                        "priceType": "https://schema.org/InvoicePrice",
+                        "price": "De la 500€/lună"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Pachet SEO Enterprise",
+                    "description": "Soluții SEO pentru corporații",
+                    "priceSpecification": {
+                        "@type": "UnitPriceSpecification",
+                        "priceType": "https://schema.org/InvoicePrice",
+                        "price": "De la 1000€/lună"
+                    }
+                }
+            ]
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Servicii SEO",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Audit SEO"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Optimizare On-Page"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Link Building"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Content Marketing"
+                    }
+                }
+            ]
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "75",
+            "bestRating": "5",
+            "worstRating": "1"
+        }
+    }
+    </script>
 </head>
 <body class="bg-gray-50">
     <?php renderNavbar('seo'); ?>

@@ -1,11 +1,159 @@
+<?php
+require_once '../config/config.php';
+?>
+
 <!DOCTYPE html>
 <html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dezvoltare Website și Magazin Online în București | LightningRevenue</title>
-    <meta name="description" content="Servicii profesionale de dezvoltare website-uri și magazine online în București. Creăm site-uri responsive, optimizate SEO și ușor de administrat.">
+    <title>Dezvoltare Website ⭐ Creare Magazin Online</title>
+    
+    <!-- Meta Tags -->
+    <meta name="description" content="Dezvoltare Website București ⭐ Creare Site de Prezentare ✓ Magazin Online ✓ Design Modern ✓ Optimizare SEO ✓ Tehnologii Avansate ✓ Suport 24/7">
+    <meta name="keywords" content="dezvoltare website bucuresti, creare site, web design, realizare site, dezvoltare magazin online, creare website, web development">
+    <meta name="author" content="Lightning Revenue">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="<?php echo BASE_URL; ?>dezvoltare-siteuri-bucuresti">
+    <meta property="og:title" content="Dezvoltare Website ⭐ Create Magazin Oline">
+    <meta property="og:description" content="Servicii profesionale de dezvoltare website în București. Creăm site-uri web și magazine online performante, optimizate pentru conversii și experiență utilizator premium.">
+    <meta property="og:image" content="<?php echo BASE_URL; ?>assets/images/dezvoltare-website-imagine.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="<?php echo BASE_URL; ?>dezvoltare-siteuri-bucuresti">
+    <meta property="twitter:title" content="Dezvoltare Website ⭐ Creare Magazin Online">
+    <meta property="twitter:description" content="Servicii profesionale de dezvoltare website în București. Creăm site-uri web și magazine online performante, optimizate pentru conversii și experiență utilizator premium.">
+    <meta property="twitter:image" content="<?php echo BASE_URL; ?>assets/images/dezvoltare-website-imagine.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="<?php echo BASE_URL; ?>dezvoltare-siteuri-bucuresti">
+
+    <!-- Styles -->
     <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Dezvoltare Website București",
+        "provider": {
+            "@type": "Organization",
+            "name": "Lightning Revenue",
+            "url": "<?php echo BASE_URL; ?>"
+        },
+        "description": "Servicii complete de dezvoltare website și creare site-uri web în București. Oferim soluții personalizate, design modern și optimizare pentru performanță maximă.",
+        "areaServed": {
+            "@type": "City",
+            "name": "București"
+        },
+        "serviceType": "Web Development",
+        "offers": {
+            "@type": "AggregateOffer",
+            "priceCurrency": "RON",
+            "offerCount": "3",
+            "offers": [
+                {
+                    "@type": "Offer",
+                    "name": "Site de Prezentare",
+                    "description": "Website profesional pentru prezentarea afacerii tale",
+                    "priceSpecification": {
+                        "@type": "UnitPriceSpecification",
+                        "priceType": "https://schema.org/InvoicePrice",
+                        "price": "De la 500€"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Magazin Online",
+                    "description": "Platformă e-commerce completă și optimizată",
+                    "priceSpecification": {
+                        "@type": "UnitPriceSpecification",
+                        "priceType": "https://schema.org/InvoicePrice",
+                        "price": "De la 1000€"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Soluții Enterprise",
+                    "description": "Dezvoltare personalizată pentru proiecte complexe",
+                    "priceSpecification": {
+                        "@type": "UnitPriceSpecification",
+                        "priceType": "https://schema.org/InvoicePrice",
+                        "price": "De la 3500€"
+                    }
+                }
+            ]
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Servicii Dezvoltare Website",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Site-uri de Prezentare"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Magazine Online"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Landing Pages"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Aplicații Web Personalizate"
+                    }
+                }
+            ]
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "100",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "additionalProperty": [
+            {
+                "@type": "PropertyValue",
+                "name": "Tehnologii",
+                "value": "HTML5, CSS3, JavaScript, PHP, MySQL, WordPress, WooCommerce"
+            },
+            {
+                "@type": "PropertyValue",
+                "name": "Timp de Livrare",
+                "value": "2-8 săptămâni în funcție de complexitate"
+            },
+            {
+                "@type": "PropertyValue",
+                "name": "Suport",
+                "value": "24/7 post-implementare"
+            }
+        ]
+    }
+    </script>
 </head>
 <body>
 <?php 

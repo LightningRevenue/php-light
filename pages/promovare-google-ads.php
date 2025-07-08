@@ -1,11 +1,164 @@
+<?php
+require_once '../config/config.php';
+?>
+
 <!DOCTYPE html>
 <html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Promovare Google Ads și Promovare PPC</title>
-    <meta name="description" content="Servicii profesionale de promovare Google Ads și marketing online în București. Creștem afacerea ta prin campanii optimizate și strategii personalizate.">
+    <title>Promovare Google Ads Bucuresti ⭐ Campanii PPC</title>
+    
+    <!-- Meta Tags -->
+    <meta name="description" content="Promovare Google Ads București ⭐ Campanii PPC Optimizate ✓ Rezultate Rapide ✓ ROI Măsurabil ✓ Expertiză Google Ads ✓ Creștere Vânzări">
+    <meta name="keywords" content="promovare google ads, campanii PPC, google adwords, agentie google ads, reclame google, publicitate online, marketing PPC">
+    <meta name="author" content="Lightning Revenue">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="<?php echo BASE_URL; ?>promovare-google-ads">
+    <meta property="og:title" content="Promovare Google Ads ⭐ Campanii PPC">
+    <meta property="og:description" content="Servicii profesionale de promovare în Google Ads. Creștem vânzările afacerii tale prin campanii PPC optimizate și strategii personalizate de advertising.">
+    <meta property="og:image" content="<?php echo BASE_URL; ?>assets/images/promovare-google-ads.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="<?php echo BASE_URL; ?>promovare-google-ads">
+    <meta property="twitter:title" content="Promovare Google Ads ⭐ Campanii PPC">
+    <meta property="twitter:description" content="Servicii profesionale de promovare în Google Ads. Creștem vânzările afacerii tale prin campanii PPC optimizate și strategii personalizate de advertising.">
+    <meta property="twitter:image" content="<?php echo BASE_URL; ?>assets/images/promovare-google-ads.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="<?php echo BASE_URL; ?>promovare-google-ads">
+
+    <!-- Styles -->
     <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Promovare Google Ads",
+        "provider": {
+            "@type": "Organization",
+            "name": "Lightning Revenue",
+            "url": "<?php echo BASE_URL; ?>"
+        },
+        "description": "Servicii profesionale de promovare în Google Ads și campanii PPC. Strategii personalizate, optimizare continuă și rezultate măsurabile pentru afacerea ta.",
+        "areaServed": {
+            "@type": "City",
+            "name": "București"
+        },
+        "serviceType": "Google Ads și PPC",
+        "offers": {
+            "@type": "AggregateOffer",
+            "priceCurrency": "RON",
+            "offerCount": "3",
+            "offers": [
+                {
+                    "@type": "Offer",
+                    "name": "Pachet Start",
+                    "description": "Ideal pentru afaceri mici și start-up-uri",
+                    "priceSpecification": {
+                        "@type": "UnitPriceSpecification",
+                        "priceType": "https://schema.org/InvoicePrice",
+                        "price": "De la 300€/lună"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Pachet Business",
+                    "description": "Pentru afaceri în creștere și companii medii",
+                    "priceSpecification": {
+                        "@type": "UnitPriceSpecification",
+                        "priceType": "https://schema.org/InvoicePrice",
+                        "price": "De la 500€/lună"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Pachet Enterprise",
+                    "description": "Soluții complexe pentru companii mari",
+                    "priceSpecification": {
+                        "@type": "UnitPriceSpecification",
+                        "priceType": "https://schema.org/InvoicePrice",
+                        "price": "De la 1000€/lună"
+                    }
+                }
+            ]
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Servicii Google Ads",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Campanii Google Search"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Campanii Google Display"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Remarketing"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Google Shopping"
+                    }
+                }
+            ]
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "100",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "additionalProperty": [
+            {
+                "@type": "PropertyValue",
+                "name": "Experiență",
+                "value": "Peste 5 ani în Google Ads"
+            },
+            {
+                "@type": "PropertyValue",
+                "name": "Certificări",
+                "value": "Google Ads Search, Display, Shopping"
+            },
+            {
+                "@type": "PropertyValue",
+                "name": "Raportare",
+                "value": "Rapoarte săptămânale și dashboard personalizat"
+            },
+            {
+                "@type": "PropertyValue",
+                "name": "Suport",
+                "value": "Asistență dedicată și optimizare continuă"
+            }
+        ]
+    }
+    </script>
 </head>
 <body>
 <?php 

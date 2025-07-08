@@ -1,11 +1,100 @@
+<?php
+require_once '../config/config.php';
+?>
+
 <!DOCTYPE html>
 <html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agentie Email Marketing Bucuresti | Implentare Newsletter</title>
-    <meta name="description" content="Servicii profesionale de email marketing și implementare newsletter în București. Creștem rata de conversie și fidelizăm clienții prin campanii personalizate.">
+    <title>Servicii Email Marketing ⭐ București</title>
+    
+    <!-- Meta Tags -->
+    <meta name="description" content="Servicii Email Marketing București ⭐ Servicii Newsletter Profesionale ✓ Automatizări Email ✓ Campanii Personalizate ✓ Creștere Conversii ✓ Fidelizare Clienți">
+    <meta name="keywords" content="email marketing bucuresti, servicii newsletter, automatizari email, campanii email marketing, implementare newsletter, marketing automation">
+    <meta name="author" content="Lightning Revenue">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="<?php echo BASE_URL; ?>email-marketing-bucuresti">
+    <meta property="og:title" content="Servicii Email Marketing ⭐ București">
+    <meta property="og:description" content="Servicii complete de email marketing în București. Creștem rata de conversie și fidelizăm clienții prin campanii personalizate și automatizări inteligente.">
+    <meta property="og:image" content="<?php echo BASE_URL; ?>assets/images/email-marketing-imagine.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="<?php echo BASE_URL; ?>email-marketing-bucuresti">
+    <meta property="twitter:title" content="Servicii Email Marketing ⭐ București">
+    <meta property="twitter:description" content="Servicii complete de email marketing în București. Creștem rata de conversie și fidelizăm clienții prin campanii personalizate și automatizări inteligente.">
+    <meta property="twitter:image" content="<?php echo BASE_URL; ?>assets/images/email-marketing-imagine.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="<?php echo BASE_URL; ?>email-marketing-bucuresti">
+
+    <!-- Styles -->
     <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Email Marketing București",
+        "provider": {
+            "@type": "Organization",
+            "name": "Lightning Revenue",
+            "url": "<?php echo BASE_URL; ?>"
+        },
+        "description": "Servicii profesionale de email marketing și implementare newsletter în București. Automatizări, campanii personalizate și strategii de fidelizare clienți.",
+        "areaServed": {
+            "@type": "City",
+            "name": "București"
+        },
+        "serviceType": "Email Marketing",
+        "offers": {
+            "@type": "Offer",
+            "priceCurrency": "RON",
+            "priceSpecification": {
+                "@type": "UnitPriceSpecification",
+                "priceType": "https://schema.org/InvoicePrice",
+                "price": "Personalizat în funcție de necesități"
+            }
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Servicii Email Marketing",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Implementare Newsletter"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Automatizări Email Marketing"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Campanii Email Personalizate"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
 </head>
 <body>
 <?php 

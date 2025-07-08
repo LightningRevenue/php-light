@@ -1,11 +1,142 @@
+<?php
+require_once '../config/config.php';
+?>
+
 <!DOCTYPE html>
 <html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dezvoltare Magazin Online Bucuresti</title>
-    <meta name="description" content="Servicii profesionale de dezvoltare website-uri și magazine online în București. Creăm site-uri responsive, optimizate SEO și ușor de administrat.">
+    <title>Dezvoltare Magazin Online București ⭐ Creare Site eCommerce</title>
+    
+    <!-- Meta Tags -->
+    <meta name="description" content="Dezvoltare Magazin Online București ⭐ Creare eCommerce Profesional ✓ WooCommerce & Shopify ✓ Design Responsive ✓ Optimizare SEO ✓ Integrări Multiple">
+    <meta name="keywords" content="dezvoltare magazin online, creare ecommerce, woocommerce bucuresti, shopify romania, creare shop online, platformă ecommerce, dezvoltare magazin, create magazin online">
+    <meta name="author" content="Lightning Revenue">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="<?php echo BASE_URL; ?>dezvoltare-magazin-online">
+    <meta property="og:title" content="Dezvoltare Magazin Online București ⭐ Creare Site eCommerce">
+    <meta property="og:description" content="Servicii profesionale de dezvoltare magazine online. Creăm platforme eCommerce performante, optimizate pentru conversii și ușor de administrat.">
+    <meta property="og:image" content="<?php echo BASE_URL; ?>assets/images/dezvoltare-magazin-online.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="<?php echo BASE_URL; ?>dezvoltare-magazin-online">
+    <meta property="twitter:title" content="Dezvoltare Magazin Online București ⭐ Creare Site eCommerce">
+    <meta property="twitter:description" content="Servicii profesionale de dezvoltare magazine online. Creăm platforme eCommerce performante, optimizate pentru conversii și ușor de administrat.">
+    <meta property="twitter:image" content="<?php echo BASE_URL; ?>assets/images/dezvoltare-magazin-online.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo BASE_URL; ?>assets/images/logo-lightning-revenue.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="<?php echo BASE_URL; ?>dezvoltare-magazin-online">
+
+    <!-- Styles -->
     <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Dezvoltare Magazin Online București",
+        "provider": {
+            "@type": "Organization",
+            "name": "Lightning Revenue",
+            "url": "<?php echo BASE_URL; ?>"
+        },
+        "description": "Servicii profesionale de dezvoltare magazine online și platforme eCommerce. Soluții personalizate WooCommerce și Shopify, optimizate pentru conversii și performanță.",
+        "areaServed": {
+            "@type": "City",
+            "name": "București"
+        },
+        "serviceType": "eCommerce Development",
+        "offers": {
+            "@type": "AggregateOffer",
+            "priceCurrency": "RON",
+            "offerCount": "3",
+            "offers": [
+                {
+                    "@type": "Offer",
+                    "name": "Magazin Online Start-up",
+                    "description": "Soluție eCommerce pentru afaceri la început",
+                    "priceSpecification": {
+                        "@type": "UnitPriceSpecification",
+                        "priceType": "https://schema.org/InvoicePrice",
+                        "price": "De la 1000€"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Magazin Online Professional",
+                    "description": "Platformă completă cu funcționalități avansate",
+                    "priceSpecification": {
+                        "@type": "UnitPriceSpecification",
+                        "priceType": "https://schema.org/InvoicePrice",
+                        "price": "De la 2500€"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Soluție Enterprise",
+                    "description": "Dezvoltare personalizată pentru volume mari",
+                    "priceSpecification": {
+                        "@type": "UnitPriceSpecification",
+                        "priceType": "https://schema.org/InvoicePrice",
+                        "price": "De la 5000€"
+                    }
+                }
+            ]
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Servicii eCommerce",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Dezvoltare WooCommerce"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Implementare Shopify"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Optimizare Conversii"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Integrări Payment & Shipping"
+                    }
+                }
+            ]
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "50",
+            "bestRating": "5",
+            "worstRating": "1"
+        }
+    }
+    </script>
 </head>
 <body>
 <?php 
@@ -415,7 +546,7 @@ renderNavbar('website');
                                     class="px-8 py-4 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition duration-300 flex items-center">
                                     Trimite Solicitarea
                                     <svg class="ml-2 -mr-1 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
                                     </svg>
                                 </button>
                             </div>

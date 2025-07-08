@@ -44,7 +44,7 @@ ErrorDocument 500 /pages/500.php
 
 # Redirect from clean URLs to actual PHP files
 RewriteRule ^promovare-google-ads-promovare-online/?$ pages/promovare-google-ads-promovare-online.php [L,NC]
-RewriteRule ^contact/?$ pages/contact.php [L,NC] 
+RewriteRule ^contact/?$ pages/contact.php [L,NC]
 RewriteRule ^dezvoltare-siteuri-bucuresti/?$ pages/dezvoltare-siteuri-bucuresti.php [L,NC]
 RewriteRule ^email-marketing-bucuresti/?$ pages/email-marketing-bucuresti.php [L,NC]
 RewriteRule ^termeni-si-conditii/?$ pages/termeni-si-conditii.php [L,NC]
