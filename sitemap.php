@@ -31,6 +31,10 @@ $pages = [
     ],
     
     // Servicii
+    "marketing-pentru-afaceri-mici" => [
+        "priority" => "0.9",
+        "changefreq" => "weekly"
+    ],
     "promovare-google-ads-promovare-online" => [
         "priority" => "0.9",
         "changefreq" => "weekly"
@@ -108,6 +112,12 @@ $pages = [
     "strategii-seo" => [
         "priority" => "0.7",
         "changefreq" => "monthly"
+    ],
+    
+    // Pagini de eroare și despre
+    "404" => [
+        "priority" => "0.1",
+        "changefreq" => "yearly"
     ]
 ];
 
