@@ -10,6 +10,9 @@ renderNavbar();
     <title>Agentie Marketing Digital Bucuresti</title>
     <meta name="description" content="Află mai multe despre LightningRevenue - expertiza noastră în dezvoltare web, marketing digital și creșterea afacerilor online.">
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Analytics -->
+    <script defer src="https://analytics.lightning-revenue.com/script.js" data-website-id="3714a0f2-45b8-460f-8b56-3525dc0a4569"></script>
 </head>
 <body class="bg-gray-50">
     <main class="py-20">

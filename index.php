@@ -11,6 +11,9 @@ require_once 'components/footer.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agenție Marketing Digital București | SEO & Google Ads</title>
     
+    <!-- Analytics -->
+    <script defer src="https://analytics.lightning-revenue.com/script.js" data-website-id="3714a0f2-45b8-460f-8b56-3525dc0a4569"></script>
+    
     <!-- Meta Tags -->
     <meta name="description" content="Agentie marketing digital Bucuresti ⭕ Marketing online pentru afacerea ta ✓Rezultate rapide la preț avantajos✓Site prezentare ✓Magazin online ✓Promovare online">
     <meta name="keywords" content="agenție marketing digital, marketing online bucurești, google ads, seo, dezvoltare website, email marketing, ppc, agentie pay-per-click, agentie PPC">
