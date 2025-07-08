@@ -1,8 +1,4 @@
 <?php
-// Error reporting
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-
 // Database configuration
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
@@ -10,11 +6,15 @@ define('DB_PASS', '');
 define('DB_NAME', 'my_website');
 
 // Website configuration
-define('SITE_NAME', 'Lightning Revenue');
-define('SITE_URL', 'http://localhost/php-light');
+define('SITE_NAME', 'My PHP Website');
+define('SITE_URL', 'http://localhost/php-lightning');
 
 // Base URL configuration
-define('BASE_URL', '/php-light/'); // Update this based on your server configuration
+define('BASE_URL', '/'); // local: '/php-light/' | pe server: '/'
+
+// Error reporting
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
 // Time zone
 date_default_timezone_set('Europe/Bucharest');
@@ -22,7 +22,7 @@ date_default_timezone_set('Europe/Bucharest');
 // Session configuration
 session_start();
 
-// Configurare globală
+// Configurare globală 
 define('ASSETS_URL', BASE_URL . 'assets');
 define('IMAGES_URL', ASSETS_URL . '/images');
 define('CSS_URL', ASSETS_URL . '/css');
