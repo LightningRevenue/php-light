@@ -229,6 +229,146 @@ require_once 'components/footer.php';
             </div>
         </section>
 
+        <!-- SME Section -->
+        <section class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4">Te Înțelegem Foarte Bine...</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        Pentru că și noi am trecut prin aceleași provocări ca antreprenori
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div class="space-y-6">
+                        <div class="bg-blue-50 rounded-lg p-6">
+                            <h3 class="text-xl font-semibold text-gray-900 mb-4">"Am un băiat care poate face asta..."</h3>
+                            <p class="text-gray-600 mb-4">
+                                Câte afaceri nu au suferit din cauza acestei fraze? Știm prea bine sentimentul când:
+                            </p>
+                            <ul class="space-y-3">
+                                <li class="flex items-start">
+                                    <svg class="w-5 h-5 text-red-500 mt-1 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                                    </svg>
+                                    <span>Site-ul e mereu "aproape gata", dar niciodată terminat</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="w-5 h-5 text-red-500 mt-1 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                                    </svg>
+                                    <span>Campaniile de promovare "merg", dar nu aduc clienți</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="w-5 h-5 text-red-500 mt-1 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                                    </svg>
+                                    <span>Bugetul de marketing pare aruncat pe fereastră</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-gray-50 rounded-lg p-6">
+                            <h3 class="text-xl font-semibold text-gray-900 mb-4">Haosul Marketingului Neorganizat</h3>
+                            <p class="text-gray-600 mb-4">
+                                Te simți copleșit când:
+                            </p>
+                            <ul class="space-y-3">
+                                <li class="flex items-start">
+                                    <svg class="w-5 h-5 text-yellow-500 mt-1 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                                    </svg>
+                                    <span>Nu știi exact unde se duc banii din advertising</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="w-5 h-5 text-yellow-500 mt-1 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                                    </svg>
+                                    <span>Competiția pare că are mereu un avantaj inexplicabil</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="w-5 h-5 text-yellow-500 mt-1 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                                    </svg>
+                                    <span>Primești rapoarte confuze sau deloc</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="space-y-6">
+                        <div class="bg-gradient-to-br from-green-50 to-white rounded-lg p-6 shadow-sm">
+                            <h3 class="text-xl font-semibold text-gray-900 mb-4">Există o Cale mai Bună</h3>
+                            <p class="text-gray-600 mb-6">
+                                Nu trebuie să te bazezi pe "băiatul care poate face asta". Meriti o echipă de profesioniști care:
+                            </p>
+                            <ul class="space-y-4">
+                                <li class="flex items-start">
+                                    <div class="flex-shrink-0">
+                                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-green-500 text-white">
+                                            <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="ml-4">
+                                        <h4 class="text-lg font-medium text-gray-900">Îți arată exact ce se întâmplă</h4>
+                                        <p class="mt-2 text-gray-600">Prin <a href="<?php echo BASE_URL; ?>promovare-google-ads" class="text-blue-600 hover:text-blue-700">rapoarte clare de performanță</a> și comunicare constantă.</p>
+                                    </div>
+                                </li>
+                                <li class="flex items-start">
+                                    <div class="flex-shrink-0">
+                                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-green-500 text-white">
+                                            <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="ml-4">
+                                        <h4 class="text-lg font-medium text-gray-900">Livrează la timp</h4>
+                                        <p class="mt-2 text-gray-600">De la <a href="<?php echo BASE_URL; ?>dezvoltare-siteuri-bucuresti" class="text-blue-600 hover:text-blue-700">dezvoltare website</a> până la <a href="<?php echo BASE_URL; ?>servicii-seo" class="text-blue-600 hover:text-blue-700">optimizare SEO</a>.</p>
+                                    </div>
+                                </li>
+                                <li class="flex items-start">
+                                    <div class="flex-shrink-0">
+                                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-green-500 text-white">
+                                            <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="ml-4">
+                                        <h4 class="text-lg font-medium text-gray-900">Aduce rezultate măsurabile</h4>
+                                        <p class="mt-2 text-gray-600">Cu <a href="<?php echo BASE_URL; ?>promovare-google-ads-promovare-online" class="text-blue-600 hover:text-blue-700">strategii de marketing</a> testate și dovedite.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-white rounded-lg p-6 border-2 border-green-100">
+                            <p class="text-gray-800 italic">
+                                "După ce am pierdut timp și bani cu diverse încercări, am realizat că aveam nevoie de profesioniști adevărați. A fost cea mai bună decizie pentru afacerea mea."
+                            </p>
+                            <div class="mt-4">
+                                <p class="font-semibold text-gray-900">Alexandru M.</p>
+                                <p class="text-sm text-gray-600">Antreprenor, București</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-12 text-center">
+                    <a href="<?php echo BASE_URL; ?>contact" 
+                       class="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition duration-150">
+                        Hai să Discutăm Despre Afacerea Ta
+                        <svg class="ml-2 -mr-1 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
         <!-- Features Section -->
         <section id="features" class="py-20 px-6 bg-white">
             <div class="max-w-7xl mx-auto">
